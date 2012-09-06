@@ -1,0 +1,8 @@
+* zx-dft-course
+This is Zhongnan Xu's repository for work done
+for 06-640 - Molecular Simulation
+
+Get your copy of the course with this command:
+#+BEGIN_SRC sh
+git clone git://github.com/zhongnanxu/zx-dft-course.git
+#+END_SRC
