@@ -83,15 +83,30 @@ Code
 #+begin_src python :results output 
 import numpy as np
 from scipy.optimize import fsolve
+import matplotlib.pyplot as plt
 
 def func(x):
     return np.sin(x**2) - 0.5
 print 'The answer is {0:1.3f}'.format(fsolve(func, np.pi)[0])
+fig = plt.figure(1, (5, 4))
+ax = fig.add_subplot(111)
+x = np.linspace(0, 2 * np.pi)
+y = func(x) + 0.5
+ax.plot(x, y, marker='None', color='b', label='$sin(x^2)$')
+ax.plot(2.983, np.sin(2.983**2), marker='o', color='r', label='My solution')
+ax.set_xlabel('x')
+ax.set_ylabel('y')
+ax.set_xlim((0, 2 * np.pi))
+ax.legend(prop={'size':'medium'}, loc=3)
+fig.tight_layout()
+plt.show()
 #+end_src
 
 Output
 #+RESULTS:
 : The answer is 2.983
+
+[[./hw1_linear-algebra.png]]
 
 * Linear algebra
 Solve these equations using python and linear algebra:

@@ -1,4 +1,4 @@
-% Created 2012-09-05 Wed 23:41
+% Created 2012-09-06 Thu 10:00
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{fixltx2e}
@@ -134,16 +134,31 @@ Code
 \begin{verbatim}
 import numpy as np
 from scipy.optimize import fsolve
+import matplotlib.pyplot as plt
 
 def func(x):
     return np.sin(x**2) - 0.5
 print 'The answer is {0:1.3f}'.format(fsolve(func, np.pi)[0])
+fig = plt.figure(1, (5, 4))
+ax = fig.add_subplot(111)
+x = np.linspace(0, 2 * np.pi)
+y = func(x) + 0.5
+ax.plot(x, y, marker='None', color='b', label='$sin(x^2)$')
+ax.plot(2.983, np.sin(2.983**2), marker='o', color='r', label='My solution')
+ax.set_xlabel('x')
+ax.set_ylabel('y')
+ax.set_xlim((0, 2 * np.pi))
+ax.legend(prop={'size':'medium'}, loc=3)
+fig.tight_layout()
+plt.show()
 \end{verbatim}
 
 Output
 \begin{verbatim}
  The answer is 2.983
 \end{verbatim}
+
+\includegraphics[width=.9\linewidth]{./hw1_linear-algebra.png}
 \section{Linear algebra}
 \label{sec-6}
 
