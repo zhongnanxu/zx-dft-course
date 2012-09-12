@@ -1,0 +1,202 @@
+#+TITLE:  Molecular Simulation HOMEWORK 2: Properties of nitromethane
+#+AUTHOR: Zhongnan Xu
+#+EMAIL:  zhongnanxu@cmu.edu
+#+DATE:   9/18/12 Thursday
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+PROPERTY:  results output verbatim
+#+PROPERTY:  exports both
+
+* Molecular Weight
+Use ase and python to compute the molecular weight of nitromethane (CH3NO2).
+Compare your answer to what you compute by hand
+
+#+begin_src python :results output
+from ase.data.molecules import molecule
+import numpy as np
+
+# Calculate using ase and numpy functions
+atoms = molecule('CH3NO2')
+masses = atoms.get_masses()
+total = masses.sum()
+print 'ASE and numpy calculates the  molecular weight of nitromethane is {0:1.3f} g/mol'.format(total) 
+
+# Calculate 'by hand' using periodic table
+C = 12.011
+H = 1.008
+N = 14.007
+O = 15.999
+
+total = C + 3*H + N + 2*O
+print 'We calculate "by hand" the molecular weight of nitromethane to be {0:1.3f} g/mol'.format(total)
+#+end_src
+
+#+RESULTS:
+: ASE and numpy calculates the  molecular weight of nitromethane is 61.040 g/mol
+: We calculate "by hand" the molecular weight of nitromethane to be 61.040 g/mol
+
+* Center of Mass
+The center of mass is defined as 
+\begin{equation}
+R = \frac{1}{M} \sum m_ir_i
+\end{equation}
+where $M$ is the total mass and $m_i$ and $r_i$ is each chemical species' mass
+and distance from a fixed point. Note that $R$ and $r_i$ are given from the same
+fixed point, which we will define for simplicity as the origin. We will first write
+a program that calculates this.
+
+#+begin_src python :results output
+from ase.data.molecules import molecule
+import numpy as np
+
+# Prepare the data
+atoms = molecule('CH3NO2')
+masses = atoms.get_masses()
+positions = atoms.get_positions()
+total_mass = masses.sum()
+
+# Compute the center of mass (COM). First compute the sums of the m*r values
+sum = np.array((0., 0., 0.))
+for mass, pos in zip(masses, positions):
+    sum += mass * pos
+COM = sum / total_mass
+print 'We compute the center of mass to be ({0:1.5f}, {1:1.5f}, {2:1.5f})'.format(COM[0], COM[1], COM[2])
+
+# Use ASE to compute the center of mass
+COM = atoms.get_center_of_mass()
+print 'ASE computes the center of mass to be ({0:1.5f}, {1:1.5f}, {2:1.5f})'.format(COM[0], COM[1], COM[2])
+#+end_src
+
+#+RESULTS:
+: We compute the center of mass to be (0.00619, 0.07989, 0.00000)
+: ASE computes the center of mass to be (0.00619, 0.07989, 0.00000)
+
+* Moments of Inertia
+#+begin_src python :results output
+from ase.data.molecules import molecule
+atoms = molecule('CH3NO2')
+I = atoms.get_moments_of_inertia()
+print 'The moments of inertia are {0:1.3f}, {1:1.3f}, and {2:1.3f} amu*angstroms^2'.format(I[0], I[1], I[2])
+#+end_src
+
+#+RESULTS:
+: The moments of inertia are 42.242, 47.838, and 86.868 amu*angstroms^2
+
+* Bond Lengths
+#+begin_src python :results output
+from ase.data.molecules import molecule
+
+atoms = molecule('CH3NO2')
+print 'atom symbol'
+print '==========='
+for i, atom in enumerate(atoms):
+    print i, '   ' + atom.symbol
+
+# From here we need to find distances between atom indexes 0-2, 0-3, and 0-4
+indexes = ((0, 2), (0, 3), (0, 4))
+print 'The C-H bond distances are'
+for index in indexes:
+    print '{0:1.3f}'.format(atoms.get_distance(index[0], index[1])), 'Angstroms'
+#+end_src
+
+#+RESULTS:
+#+begin_example
+atom symbol
+===========
+0    C
+1    N
+2    H
+3    H
+4    H
+5    O
+6    O
+The C-H bond distances are
+1.090 Angstroms
+1.087 Angstroms
+1.087 Angstroms
+#+end_example
+
+To understand why they are not equal, we can look at the molecule.
+
+#+begin_src python :results output
+from ase.data.molecules import molecule
+from ase.visualize import view
+from ase.io import write
+
+atoms = molecule('CH3NO2')
+atoms.set_cell((10, 10, 10))
+atoms.center()
+write('CH3NO2.png', atoms, show_unit_cell=2)
+write('CH3NO2_rot.png', atoms, show_unit_cell=2, rotation='-90x,-90y, 90z')
+#+end_src 
+
+#+RESULTS:
+
+#+caption: Side view of CH_3NO_2
+#+ATTR_LaTeX: placement=[H]
+[[./CH3NO2.png]]
+#+caption: Side view of CH_3NO_2
+#+ATTR_LaTeX: placement=[H]
+[[./CH3NO2_rot.png]]
+
+We can see that the molecule is symmetric along a plane that splites the
+two oxygens. These therefore will have the same bond length.
+
+* Bond angle in the nitro group
+From the previous problem, we know the indexes of the O-N-O bond are 6, 1, and 5
+
+#+begin_src python :results output
+from ase.data.molecules import molecule
+from numpy import pi
+
+atoms = molecule('CH3NO2')
+s = 'The angle between O-N-O is {0:1.1f} degrees'
+print s.format(atoms.get_angle([6,1,5])*180/pi)
+#+end_src
+
+#+RESULTS:
+: The angle between O-N-O is 125.7 degrees
+
+* Generate an xyz file
+#+begin_src python :results output
+from ase.data.molecules import molecule
+from ase.io import write
+
+atoms = molecule('CH3NO2')
+write('CH3NO2.xyz', atoms)
+file = open('CH3NO2.xyz', 'r')
+lines = file.readlines()
+for line in lines:
+    print line[0:-1] #We want this to avoid the extra new line at the end of each line
+#+end_src
+
+#+RESULTS:
+: 7
+: 
+: C      -0.114282000000000     -1.314565000000000      0.000000000000000
+: N       0.000000000000000      0.166480000000000      0.000000000000000
+: H       0.899565000000000     -1.715256000000000      0.000000000000000
+: H      -0.640921000000000     -1.607212000000000      0.904956000000000
+: H      -0.640921000000000     -1.607212000000000     -0.904956000000000
+: O       0.066748000000000      0.728232000000000     -1.103775000000000
+: O       0.066748000000000      0.728232000000000      1.103775000000000
+
+
+* Create a graphic of nitromethane
+#+begin_src python :results output
+from ase.data.molecules import molecule
+from ase.visualize import view
+from ase.io import write
+
+atoms = molecule('CH3NO2')
+atoms.set_cell((10, 11.5, 12.1))
+atoms.center()
+write('CH3NO2_image.png', atoms, show_unit_cell=2, rotation='-45x,-45y, 45z')
+#+end_src 
+
+#+RESULTS:
+#+caption: Graphic of nitromethane
+#+ATTR_LaTeX: placement=[H]
+[[./CH3NO2_image.png]]
