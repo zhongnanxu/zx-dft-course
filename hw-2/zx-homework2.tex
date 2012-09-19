@@ -1,4 +1,4 @@
-% Created 2012-09-12 Wed 17:10
+% Created 2012-09-18 Tue 21:08
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{fixltx2e}
@@ -79,6 +79,10 @@ print 'We calculate "by hand" the molecular weight of nitromethane to be {0:1.3f
 \section{Center of Mass}
 \label{sec-2}
 
+Write a python function to compute the center of mass of
+nitromethane. Compare your answer to the output of
+ase.Atoms.get$_{\mathrm{center}}$$_{\mathrm{of}}$$_{\mathrm{mass}}$.
+
 The center of mass is defined as 
 \begin{equation}
 R = \frac{1}{M} \sum m_ir_i
@@ -118,6 +122,8 @@ print 'ASE computes the center of mass to be ({0:1.5f}, {1:1.5f}, {2:1.5f})'.for
 \section{Moments of Inertia}
 \label{sec-3}
 
+Compute the moments of inertia for nitromethane
+
 
 \begin{minted}[frame=lines,fontsize=\scriptsize,linenos]{python}
 from ase.data.molecules import molecule
@@ -131,6 +137,8 @@ print 'The moments of inertia are {0:1.3f}, {1:1.3f}, and {2:1.3f} amu*angstroms
 \end{verbatim}
 \section{Bond Lengths}
 \label{sec-4}
+
+Compute the bond length between the C and each H atom
 
 
 \begin{minted}[frame=lines,fontsize=\scriptsize,linenos]{python}
@@ -198,6 +206,8 @@ two oxygens. These therefore will have the same bond length.
 \section{Bond angle in the nitro group}
 \label{sec-5}
 
+Compute the bond angle in degrees between O-N-O in the nitro group.
+
 From the previous problem, we know the indexes of the O-N-O bond are 6, 1, and 5
 
 
@@ -215,6 +225,9 @@ print s.format(atoms.get_angle([6,1,5])*180/pi)
 \end{verbatim}
 \section{Generate an xyz file}
 \label{sec-6}
+
+Use ase to generate an xyz file of the coordinates of the nitromethane
+molecule. Include the output of your xyz file in your homework.
 
 
 \begin{minted}[frame=lines,fontsize=\scriptsize,linenos]{python}
@@ -242,6 +255,10 @@ for line in lines:
 \end{verbatim}
 \section{Create a graphic of nitromethane}
 \label{sec-7}
+
+The molecule should be centered in a unit cell with dimensions
+\$10\times11.5\texttimes{}\12.1\AA{}. The unit cell should be visible in the
+figure. Create a png file and embed it in the file you turn in.
 
 
 \begin{minted}[frame=lines,fontsize=\scriptsize,linenos]{python}

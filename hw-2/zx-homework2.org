@@ -38,6 +38,10 @@ print 'We calculate "by hand" the molecular weight of nitromethane to be {0:1.3f
 : We calculate "by hand" the molecular weight of nitromethane to be 61.040 g/mol
 
 * Center of Mass
+Write a python function to compute the center of mass of
+nitromethane. Compare your answer to the output of
+ase.Atoms.get_center_of_mass.
+
 The center of mass is defined as 
 \begin{equation}
 R = \frac{1}{M} \sum m_ir_i
@@ -74,6 +78,8 @@ print 'ASE computes the center of mass to be ({0:1.5f}, {1:1.5f}, {2:1.5f})'.for
 : ASE computes the center of mass to be (0.00619, 0.07989, 0.00000)
 
 * Moments of Inertia
+Compute the moments of inertia for nitromethane
+
 #+begin_src python :results output
 from ase.data.molecules import molecule
 atoms = molecule('CH3NO2')
@@ -85,6 +91,8 @@ print 'The moments of inertia are {0:1.3f}, {1:1.3f}, and {2:1.3f} amu*angstroms
 : The moments of inertia are 42.242, 47.838, and 86.868 amu*angstroms^2
 
 * Bond Lengths
+Compute the bond length between the C and each H atom
+
 #+begin_src python :results output
 from ase.data.molecules import molecule
 
@@ -145,6 +153,8 @@ We can see that the molecule is symmetric along a plane that splites the
 two oxygens. These therefore will have the same bond length.
 
 * Bond angle in the nitro group
+Compute the bond angle in degrees between O-N-O in the nitro group.
+
 From the previous problem, we know the indexes of the O-N-O bond are 6, 1, and 5
 
 #+begin_src python :results output
@@ -160,6 +170,9 @@ print s.format(atoms.get_angle([6,1,5])*180/pi)
 : The angle between O-N-O is 125.7 degrees
 
 * Generate an xyz file
+Use ase to generate an xyz file of the coordinates of the nitromethane
+molecule. Include the output of your xyz file in your homework.
+
 #+begin_src python :results output
 from ase.data.molecules import molecule
 from ase.io import write
@@ -183,8 +196,11 @@ for line in lines:
 : O       0.066748000000000      0.728232000000000     -1.103775000000000
 : O       0.066748000000000      0.728232000000000      1.103775000000000
 
-
 * Create a graphic of nitromethane
+The molecule should be centered in a unit cell with dimensions
+$10\times11.5\times\12.1\AA. The unit cell should be visible in the
+figure. Create a png file and embed it in the file you turn in.
+
 #+begin_src python :results output
 from ase.data.molecules import molecule
 from ase.visualize import view
