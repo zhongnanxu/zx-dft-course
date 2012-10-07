@@ -1,0 +1,113 @@
+#+TITLE:  Literature Review: Using DFT to study active surfaces in the oxygen eveolution reaction (OER)
+#+AUTHOR: Zhongnan Xu
+#+EMAIL:  zhongnanxu@cmu.edu
+#+DATE:   10/08/12 Monday
+#+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS:   LaTeX:dvipng
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+PROPERTY:  results output verbatim
+#+PROPERTY:  exports both
+
+#+latex_header: \usepackage{amsmath}
+#+latex_header: \usepackage[super,sort&compress]{natbib}
+#+latex_header: \usepackage{natmove}
+#+latex_header: \usepackage{underscore}
+#+latex_header: \usepackage{makeidx}
+#+latex_header: \usepackage[section]{placeins}
+#+latex_header: \usepackage{xcolor}
+#+latex_header: \usepackage{adjustbox}
+#+latex_header: \usepackage{url}
+#+latex_header: \usepackage{anysize}
+#+latex_header: \marginsize{1in}{1in}{1in}{1in}
+#+latex_header: \makeindex
+
+* Problem
+The specific problem addressed is how to accurately model surface
+coverages of oxides in water with an applied potential and varying
+pH. 
+This problem is relevant because of a recently developed atomistic 
+thermodynamic framework for studying the oxygen evolution reaction
+(OER).
+This framework allows us to calculate theoretical activities of oxides in 
+OER off of the adsorption energies of *O, *OH, and *OOH. 
+However, initial studies of these mechanisms were done on ideal surfaces, and
+coverages were not made to be consistent with actual OER conditions.
+
+Recently, two papers from separate research groups have attempted to
+build on this theory to more accurately mimic actual surfaces of
+oxides in water with an applied potential and varying pH. 
+The two papers are titled "Identifying active surface phases for metal oxide
+electrocatalysts: a study of manganese oxide bi-functional catalysts
+for oxygen reduction and water oxidation catalysis" and "Water
+Oxidation on Pure and Doped Hematite (0001) Surfaces: Prediction of Co
+and Ni as Effective Dopants for Electrocatalysis", and their
+corresponding authors are Jan Rossmeisl and Emily A. Carter,
+respectively.
+Detailed references can be seen in the footnotes and the full article
+can be found in the folder with this assignment.[fn:1][fn:2]
+
+* Use of DFT
+Both article's overall goal was to evaluate catalyst's performance in
+the oxygen evolution reaction (OER) using the same atomistic framework
+constructed in a previous article [fn:3].
+By using density functional theory (DFT) as a tool to model oxide
+surfaces and calculate adsorption energies of water electrolysis
+intermediates, one could then use these adsorption energies to
+calculate reactivities of oxide surfaces that were in qualitative
+agreement with experiments.
+This work helped validate the approach with idealized surfaces, so the
+next question is what the actual surfaces were in OER conditions,
+which includes effects of water solvation, applied potential, and pH
+effects.
+
+Rossmeisl and coworkers took an approach that involved taking a bulk
+Pourbaix diagram and 'upgrading' it to include surface stability with
+respect to pH and applied potential.
+Their main equation of modeling dissociation and adsorption of water
+onto idealized surfaces is shown below.
+
+\begin{equation}\begin{split}
+X^\ast &+ (N_{\mathrm{O^\ast}} + N_{\mathrm{HO^\ast}})\mathrm{H_2O}(l)
+\rightarrow \\
+& (N_{\mathrm{O^\ast}} + N_{\mathrm{HO^\ast}} +
+N^\ast)_{\mathrm{ads}} + (2N_{\mathrm{O^\ast}} +
+N_{\mathrm{HO^\ast}})\mathrm{H^+} + (2N_{\mathrm{O^\ast}} + N_{\mathrm{HO^\ast}})\mathrm{e^-}
+\end{split}\end{equation}
+
+This reaction describes the interaction of water with
+surfaces. Starting with a clean surface with a total of $X^\ast$
+sites, water will adsorb and produce protons, electrons, and adsorbed
+species of either $\mathrm{O^{\ast}}$ or $\mathrm{HO^{\ast}}$. In producing these
+intermediates, there will be a release of an electron and proton, and
+higher pHs and higher applied potentials will stabilize these
+intermediates. The Gibbs free energy of a surface under these
+conditions is shown below.
+
+\begin{equation}
+\begin{split}
+G_{\mathrm{surf}} &= E_{(N_{\mathrm{O^\ast}} + N_{\mathrm{HO^\ast}} + N_\ast)_{\mathrm{ads}}} - E_{\mathrm{X^{\ast}}} -
+(N_{\mathrm{O^\ast}} + N_{\mathrm{HO^\ast}}) E_{\mathrm{H_2O(g)}} \\ 
+&\quad + \dfrac{2N_{\mathrm{O^\ast}} +
+N_{\mathrm{HO^\ast}}}{2} E_{\mathrm{H_2(g)}} + \mathrm{\Delta ZPE -
+T\Delta S} \\
+&\quad - (2N_{\mathrm{O^\ast}} + N_{\mathrm{HO^\ast}})(eU +
+k_\mathrm{B}T\mathrm{ln}10\mathrm{pH})
+\end{split}
+\end{equation}
+
+To use this equation, one models the same surface with different
+coverages of O and OH. Generally, the more adsorbates on the surface,
+the more free electrons and protons that need to be produced, and the
+more likely that surface will be present at higher potentials and
+pH's. 
+
+* Footnotes
+
+[fn:1] Su, H.; Gorlin, Y.; Man, I. C.; Calle-vallejo, F.; Norskov, J. K.; Jaramillo, F.; Rossmeisl, J. Physical Chemistry Chemical Physics 2012, 14, 14010 
+
+[fn:2] Liao, P.; Keith, J. A; Carter, E. A Journal of the American Chemical Society 2012, 134, 13296
+
+[fn:3] Man, I.; Su, H.; Calle-Vallejo, F. ChemCatChem 2011, 3, 1159
+ 
