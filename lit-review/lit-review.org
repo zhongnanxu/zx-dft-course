@@ -1,8 +1,8 @@
-#+TITLE:  Literature Review: Using DFT to study active surfaces in the oxygen eveolution reaction (OER)
+#+TITLE:  Literature Review: Using DFT to study active surfaces in the oxygen evolution reaction (OER)
 #+AUTHOR: Zhongnan Xu
 #+EMAIL:  zhongnanxu@cmu.edu
 #+DATE:   10/08/12 Monday
-#+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:nil f:t *:t <:t
 #+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
 #+OPTIONS:   LaTeX:dvipng
 #+EXPORT_SELECT_TAGS: export
@@ -10,101 +10,195 @@
 #+PROPERTY:  results output verbatim
 #+PROPERTY:  exports both
 
-#+latex_header: \usepackage{amsmath}
-#+latex_header: \usepackage[super,sort&compress]{natbib}
-#+latex_header: \usepackage{natmove}
-#+latex_header: \usepackage{underscore}
-#+latex_header: \usepackage{makeidx}
-#+latex_header: \usepackage[section]{placeins}
-#+latex_header: \usepackage{xcolor}
-#+latex_header: \usepackage{adjustbox}
-#+latex_header: \usepackage{url}
 #+latex_header: \usepackage{anysize}
 #+latex_header: \marginsize{1in}{1in}{1in}{1in}
-#+latex_header: \makeindex
 
-* Problem
-The specific problem addressed is how to accurately model surface
-coverages of oxides in water with an applied potential and varying
-pH. 
-This problem is relevant because of a recently developed atomistic 
-thermodynamic framework for studying the oxygen evolution reaction
-(OER).
-This framework allows us to calculate theoretical activities of oxides in 
-OER off of the adsorption energies of *O, *OH, and *OOH. 
-However, initial studies of these mechanisms were done on ideal surfaces, and
-coverages were not made to be consistent with actual OER conditions.
+* Introduction
+  The specific problem addressed is how to accurately represent active
+  surfaces of oxides in the oxygen evolution reaction (OER).
+  This problem is relevant because of a recently developed atomistic 
+  thermodynamic framework for studying OER.
+  This framework allows us to calculate theoretical activities of oxides in 
+  OER off of the adsorption energies of *O, *OH, and *OOH. 
+  Initial studies of these mechanisms were done on ideal surfaces with
+  an arbitrary coverage of intermediates, and water was not assumed to
+  naturally dissociate onto these surfaces.
+  
+  Recently, two papers from separate research groups have attempted to
+  build on this theory to more accurately mimic actual surfaces of
+  oxides in water.
+  The two papers are titled "Identifying active surface phases for metal oxide
+  electrocatalysts: a study of manganese oxide bi-functional catalysts
+  for oxygen reduction and water oxidation catalysis" and "Water
+  Oxidation on Pure and Doped Hematite (0001) Surfaces: Prediction of Co
+  and Ni as Effective Dopants for Electrocatalysis", and their
+  corresponding authors are Jan Rossmeisl and Emily A. Carter,
+  respectively.
+  Detailed references can be seen in the footnotes and the full article
+  can be found in the folder with this assignment.[fn:1][fn:2]
+  
+* Methods
+  Both article's overall goal was to evaluate catalyst's performance in
+  the oxygen evolution reaction (OER) using the same atomistic framework
+  constructed in a previous article [fn:3].
+  However, Rossmeisl's goal was to model both the thermodynamics and
+  kinetics of OER and construct a theoretical current-voltage curve,
+  while Carter's goal was to compare the thermodynamics of pure and
+  doped hematite. 
+  By using density functional theory (DFT) as a tool to model oxide
+  surfaces and calculate adsorption energies of water electrolysis
+  intermediates, one could then use these adsorption energies to
+  calculate reactivities of oxide surfaces that were in qualitative
+  agreement with experiments.
+  This work helped validate the approach with idealized surfaces, so the
+  next question is what the actual surfaces were in OER conditions,
+  which includes effects of water solvation, applied potential, and pH
+  effects.
+  
+** Rossmeisl Approach: Effects of pH and electrode potential
+   Rossmeisl et al. (2012) took an approach that involved taking a bulk
+   Pourbaix diagram and 'upgrading' it to include surface stability with
+   respect to pH and applied potential.
+   They studied the MnO_{x} system in OER conditions, which include
+   Mn_{3}O_{4}, Mn_{2}O_{3}, and MnO_{2}.
+   Their goal was to use DFT to find both thermodynamic and kinetic data
+   and model a fully self-consistent current-voltage curve of a MnO_{x}
+   electrode and compare them to experiments.
+   In order for this curve to be self-consistent, they had to take into
+   account changes of both bulk *and* surface phases with respect to
+   applied potential and pH.
+   Their main equation of modeling dissociation and adsorption of water
+   onto each of the idealized surfaces is shown below.
+   
+   \begin{equation}
+   \begin{split}
+   X^\ast &+ (N_{\mathrm{O^\ast}} + N_{\mathrm{HO^\ast}})\mathrm{H_2O}(l)
+   \rightarrow \\
+   & (N_{\mathrm{O^\ast}} + N_{\mathrm{HO^\ast}} +
+   N^\ast)_{\mathrm{ads}} + (2N_{\mathrm{O^\ast}} +
+   N_{\mathrm{HO^\ast}})\mathrm{H^+} + (2N_{\mathrm{O^\ast}} + N_{\mathrm{HO^\ast}})\mathrm{e^-}
+   \end{split}
+   \end{equation}
+   
+   This reaction describes the interaction of water with
+   surfaces. Starting with a clean surface with a total of $X^\ast$
+   sites, water will adsorb and produce protons, electrons, and adsorbed
+   species of either $\mathrm{O^{\ast}}$ or $\mathrm{HO^{\ast}}$. In producing these
+   intermediates, there will be a release of an electron and proton, and
+   higher pHs and higher applied potentials will stabilize these
+   intermediates. The Gibbs free energy of a surface under these
+   conditions is shown below.
+   
+   \begin{equation}
+   \begin{split}
+   G_{\mathrm{surf}} &= E_{(N_{\mathrm{O^\ast}} + N_{\mathrm{HO^\ast}} + N_\ast)_{\mathrm{ads}}} - E_{\mathrm{X^{\ast}}} -
+   (N_{\mathrm{O^\ast}} + N_{\mathrm{HO^\ast}}) E_{\mathrm{H_2O(g)}} \\ 
+   &\quad + \dfrac{2N_{\mathrm{O^\ast}} +
+   N_{\mathrm{HO^\ast}}}{2} E_{\mathrm{H_2(g)}} + \mathrm{\Delta ZPE -
+   T\Delta S} \\
+   &\quad - (2N_{\mathrm{O^\ast}} + N_{\mathrm{HO^\ast}})(eU +
+   k_\mathrm{B}T\mathrm{ln}10\mathrm{pH})
+   \end{split}
+   \end{equation}
+   
+   To use this equation, one models the same surface with different
+   coverages of O and OH. Generally, the more adsorbates on the surface,
+   the more free electrons and protons that need to be produced, and the
+   more likely that surface will be present at higher potentials and
+   pH's.
+   
+   Note that these surface Pourbaix diagrams are done in the context
+   of a specific bulk Pourbaix diagram. From experiments, the bulk Pourbaix
+   diagrams are assumed to be true, and then in each bulk region of the
+   Pourbaix diagrams, the surface Pourbaix diagrams are constructed. They
+   first did this for Mn_{3}O_{4}, Mn_{2}O_{3}, and MnO_{2}, and then
+   made a general MnO_{x} Pourbaix diagram that gave the most stable bulk
+   surface phase. 
+   
+** Carter Approach: A detailed investigation on water dissociation
+   Carter et al. (2012) studied hematite (Fe_{2}O_{3}) for photocatalytic water
+   splitting.
+   In order to attain a general idea of the surface, they did an
+   extensive literature review of both experimental and computational
+   investigations on the active surface facet and termination of hematite
+   in wet conditions.
+   They found that in water, the most likely surface is an
+   H_{3}-O_{3}-Fe-Fe-R surface. 
+   
+   They opted to not include effects of pH and increasing electrode 
+   potential, but did a far more extensive study on possible
+   configurations of possible surface configurations.
+   Starting with an ideal, oxygen terminated surface of hematite, 
+   they asked the question, "If we were to make surface with dangling 
+   hydroxyl groups, which would be most stable? How many of these
+   oxygens would be hydrated to make hydroxyl's, and what would the
+   configuration of these bonds be?" 
+   To answer this question, they broke up their surface into a 7x7
+   grid of a total of 49 points. 
+   They then placed one hydrogen atom at each of these points at a height
+   of 0.8 $\AA$ above the surface, allowed the hydrogen to
+   relax.
+   They would then calculate the adsorption energy as shown below.
+   
+   \begin{equation}
+   \begin{split}
+   G_{\mathrm{ads}} &= [E(\mathrm{O-terminated\;slab} + n\mathrm{H}) \\
+   &\quad E(\mathrm{O-terminated\;slab}) - (n/2)E_{\mathrm{H_2}}]/n \\
+   &\quad + \mathrm{\Delta ZPE} - T\Delta S
+   \end{split}
+   \end{equation}
+   
+   They then took the structure with the lowest energy and then did the
+   same process again with a second hydrogen atom. 
+   By doing this, they
+   could be confident that they are getting the DFT predicted ground
+   state of their system, and they could also systematically analyze
+   increasing coverages of hydroxyl groups.
+   Note that equation (3) is independent of how many hydroxyl groups are
+   on, so it is possible to find the ground state structure.
+   
+   In addition to finding the most stable H_{x}-O-Fe-Fe-R surface, they
+   also included affects of a monolayer of water.
+   The orientations of the water molecules were chosen to maximize
+   hydrogen bonding, and similar to the procedure for choosing the most
+   stable hydroxylated surface, the most stable solvated surface, after
+   relaxation, was chosen as well.
+   
+* Discussion
+  When comparing and contrasting both techniques of accurately
+  representing the surface phase in OER conditions, its important note
+  the differing goals of both.
+  Rossmeisl and coworkers were seeking
+  theoretical current-voltage curves that could be directly comparable
+  to experiments.
+  The purpose of this was to use theoretical techniques to probe the
+  fundamental characteristics of active phase
+  as one increased the potential in a typical OER experiment.
+  In contrast, Carter was seeking qualitative agreement between pure
+  and doped hematite surfaces.
+  Therefore, one could easily assume changes in the bulk and surface
+  structures at differing pH's and voltages would not be drastically
+  different across different dopings of cations.
 
-Recently, two papers from separate research groups have attempted to
-build on this theory to more accurately mimic actual surfaces of
-oxides in water with an applied potential and varying pH. 
-The two papers are titled "Identifying active surface phases for metal oxide
-electrocatalysts: a study of manganese oxide bi-functional catalysts
-for oxygen reduction and water oxidation catalysis" and "Water
-Oxidation on Pure and Doped Hematite (0001) Surfaces: Prediction of Co
-and Ni as Effective Dopants for Electrocatalysis", and their
-corresponding authors are Jan Rossmeisl and Emily A. Carter,
-respectively.
-Detailed references can be seen in the footnotes and the full article
-can be found in the folder with this assignment.[fn:1][fn:2]
-
-* Use of DFT
-Both article's overall goal was to evaluate catalyst's performance in
-the oxygen evolution reaction (OER) using the same atomistic framework
-constructed in a previous article [fn:3].
-By using density functional theory (DFT) as a tool to model oxide
-surfaces and calculate adsorption energies of water electrolysis
-intermediates, one could then use these adsorption energies to
-calculate reactivities of oxide surfaces that were in qualitative
-agreement with experiments.
-This work helped validate the approach with idealized surfaces, so the
-next question is what the actual surfaces were in OER conditions,
-which includes effects of water solvation, applied potential, and pH
-effects.
-
-Rossmeisl and coworkers took an approach that involved taking a bulk
-Pourbaix diagram and 'upgrading' it to include surface stability with
-respect to pH and applied potential.
-Their main equation of modeling dissociation and adsorption of water
-onto idealized surfaces is shown below.
-
-\begin{equation}\begin{split}
-X^\ast &+ (N_{\mathrm{O^\ast}} + N_{\mathrm{HO^\ast}})\mathrm{H_2O}(l)
-\rightarrow \\
-& (N_{\mathrm{O^\ast}} + N_{\mathrm{HO^\ast}} +
-N^\ast)_{\mathrm{ads}} + (2N_{\mathrm{O^\ast}} +
-N_{\mathrm{HO^\ast}})\mathrm{H^+} + (2N_{\mathrm{O^\ast}} + N_{\mathrm{HO^\ast}})\mathrm{e^-}
-\end{split}\end{equation}
-
-This reaction describes the interaction of water with
-surfaces. Starting with a clean surface with a total of $X^\ast$
-sites, water will adsorb and produce protons, electrons, and adsorbed
-species of either $\mathrm{O^{\ast}}$ or $\mathrm{HO^{\ast}}$. In producing these
-intermediates, there will be a release of an electron and proton, and
-higher pHs and higher applied potentials will stabilize these
-intermediates. The Gibbs free energy of a surface under these
-conditions is shown below.
-
-\begin{equation}
-\begin{split}
-G_{\mathrm{surf}} &= E_{(N_{\mathrm{O^\ast}} + N_{\mathrm{HO^\ast}} + N_\ast)_{\mathrm{ads}}} - E_{\mathrm{X^{\ast}}} -
-(N_{\mathrm{O^\ast}} + N_{\mathrm{HO^\ast}}) E_{\mathrm{H_2O(g)}} \\ 
-&\quad + \dfrac{2N_{\mathrm{O^\ast}} +
-N_{\mathrm{HO^\ast}}}{2} E_{\mathrm{H_2(g)}} + \mathrm{\Delta ZPE -
-T\Delta S} \\
-&\quad - (2N_{\mathrm{O^\ast}} + N_{\mathrm{HO^\ast}})(eU +
-k_\mathrm{B}T\mathrm{ln}10\mathrm{pH})
-\end{split}
-\end{equation}
-
-To use this equation, one models the same surface with different
-coverages of O and OH. Generally, the more adsorbates on the surface,
-the more free electrons and protons that need to be produced, and the
-more likely that surface will be present at higher potentials and
-pH's. 
+  In assessing the reproducibility of the results, the piece of
+  information that is most valuable in these surface calculations is
+  the geometry of the adsorbates.
+  Both articles give specific structural parameters of their surfaces,
+  but only the Carter paper gives a detailed description of how the 
+  hydroxylated surfaces were produced. 
+  Rossmeisl does not describe the geometry of the HO* and HOO*
+  adsorbates, and from personal experience, these geometries are 
+  highly dependent on the initial conditions of the relaxations. 
+  Therefore, it is unclear whether Rossmeisl's surfaces are in their
+  ground state, and it is further impossible to reproduce their
+  values.
+  In contrast, Carter's paper gives a clear explanation on how the
+  hydroxylated structures were constructed and geometries and total
+  energies of the most stable structures.
+  
 
 * Footnotes
-
+  
 [fn:1] Su, H.; Gorlin, Y.; Man, I. C.; Calle-vallejo, F.; Norskov, J. K.; Jaramillo, F.; Rossmeisl, J. Physical Chemistry Chemical Physics 2012, 14, 14010 
 
 [fn:2] Liao, P.; Keith, J. A; Carter, E. A Journal of the American Chemical Society 2012, 134, 13296
