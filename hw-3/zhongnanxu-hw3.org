@@ -1,7 +1,7 @@
-#+TITLE:  Molecular Simulation HOMEWORK 3: Properties of nitromethane
+#+TITLE:  Molecular Simulation HOMEWORK 3
 #+AUTHOR: Zhongnan Xu
 #+EMAIL:  zhongnanxu@cmu.edu
-#+DATE:   9/18/12 Thursday
+#+DATE:   10/12/12 Thursday
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
 #+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
 #+OPTIONS:   LaTeX:dvipng
@@ -373,12 +373,12 @@ for f in CO2freq:
         continue
     nu = f*c
     CO2e += 0.5*h*nu
-s = 'The reaction energy for CO oxidation with zero point contributions is {0}'
+s = 'The reaction energy for CO oxidation with zero point contributions is {0:1.3f}'
 print s.format(CO2e - COe - 0.5*O2e)
 #+END_SRC
 
 #+RESULTS:
-: The reaction energy for CO oxidation with zero point contributions is -3.69719889405
+: The reaction energy for CO oxidation with zero point contributions is -3.697
 
 ** Compare your computed energy to a value from the literature.
 Provide a reference for your literature value.

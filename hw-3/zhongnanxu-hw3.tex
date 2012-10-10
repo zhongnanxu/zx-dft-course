@@ -1,4 +1,4 @@
-% Created 2012-10-10 Wed 00:07
+% Created 2012-10-10 Wed 00:27
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{fixltx2e}
@@ -32,9 +32,9 @@
 \marginsize{1in}{1in}{1in}{1in}
 \providecommand{\alert}[1]{\textbf{#1}}
 
-\title{Molecular Simulation HOMEWORK 3: Properties of nitromethane}
+\title{Molecular Simulation HOMEWORK 3}
 \author{Zhongnan Xu}
-\date{9/18/12 Thursday}
+\date{10/12/12 Thursday}
 \hypersetup{
   pdfkeywords={},
   pdfsubject={},
@@ -420,12 +420,12 @@ for f in CO2freq:
         continue
     nu = f*c
     CO2e += 0.5*h*nu
-s = 'The reaction energy for CO oxidation with zero point contributions is {0}'
+s = 'The reaction energy for CO oxidation with zero point contributions is {0:1.3f}'
 print s.format(CO2e - COe - 0.5*O2e)
 \end{minted}
 
 \begin{verbatim}
- The reaction energy for CO oxidation with zero point contributions is -3.69719889405
+ The reaction energy for CO oxidation with zero point contributions is -3.697
 \end{verbatim}
 \subsection{Compare your computed energy to a value from the literature.}
 \label{sec-2-3}
