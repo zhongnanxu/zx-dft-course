@@ -1,4 +1,4 @@
-% Created 2012-10-10 Wed 00:27
+% Created 2012-10-10 Wed 19:58
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{fixltx2e}
@@ -262,7 +262,7 @@ plt.show()
 \caption{Convergence of CO, O$_{2}$, CO$_{2}$, and the reaction enthalpy of CO + 1/2O$_{2}$ $\rightarrow$ CO$_{2}$ with respect to plane wave cutoff energy}
 \end{figure}
 
-The total energy of the oxygen molecule converges the fastest
+The total energy of the oxygen molecule converges the fastest. Note, all y-axis tick spacings are the same.
 \section{Zero-point energy corrections}
 \label{sec-2}
 \subsection{Compute vibrational modes for CO, CO$_{2}$ and O$_{2}$}
@@ -279,24 +279,14 @@ import ase.units
 from jasp import *
 
 # Since we wanted relaxed molecules for these calculations, we can take
-# these geometries from the previous problem. Note, I could not seem to use
-# the jasp.get_atoms(), so I had to resort to using the Vasp calculator. 
-# I wonder how you typically do this with jasp.
+# these geometries from the previous problem.
 
-CWD = os.getcwd()
-os.chdir(CWD + '/prob1b/e350/CO')
-CO = Vasp(restart=True)
-CO = CO.get_atoms()
-CO.center()
-os.chdir(CWD + '/prob1b/e350/O2')
-O2 = Vasp(restart=True)
-O2 = O2.get_atoms()
-O2.center()
-os.chdir(CWD + '/prob1b/e350/CO2')
-CO2 = Vasp(restart=True)
-CO2 = CO2.get_atoms()
-CO2.center()
-os.chdir(CWD)
+with jasp('prob1b/e350/CO') as calc:
+    CO = calc.get_atoms()
+with jasp('prob1b/e350/O2') as calc:
+    O2 = calc.get_atoms()
+with jasp('prob1b/e350/CO2') as calc:
+    CO2 = calc.get_atoms()
 
 # Now we're ready to perform the vibrational calculations
 with jasp('prob2a/CO',
@@ -431,6 +421,27 @@ print s.format(CO2e - COe - 0.5*O2e)
 \label{sec-2-3}
 
 Provide a reference for your literature value.
+
+All values are taken from the NIST-JANAF Thermochemical Tables at kinetics.nist.gov/janaf.
+
+
+\begin{minted}[frame=lines,fontsize=\scriptsize,linenos]{python}
+# Values of heats of formation at 0 K in kJ/mol
+Hf_CO = -113.805
+Hf_CO2 = -393.151
+Hf_O2 = 0 # Pure component is reference
+
+Hf_rxn = -393.151 + 113.805
+s = 'The experimental heat of reaction is {0:1.3f} eV/atom'
+print s.format(Hf_rxn * 0.010364)
+\end{minted}
+
+\begin{verbatim}
+ The experimental heat of reaction is -2.895 eV/atom
+\end{verbatim}
+
+Our computed heat of reaction is too exothermic. This means that either the products
+(CO$_{2}$) are too stable, or the reactants (O$_{2}$ and CO) are unstable.
 \section{Plot the electron density of the CO2 molecule.}
 \label{sec-3}
 
