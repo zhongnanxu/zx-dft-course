@@ -70,42 +70,42 @@ with jasp('prob1a/CO2',
         pass
 
 re = eCO2 - eCO - 0.5*eO2
-print 'The total energy of CO is {0:1.3f}'.format(eCO)
+print 'The total energy of CO is {0:1.3f} ev/atom'.format(eCO)
 print 'The forces (eV/angstrom) on the atoms in CO are'
 print 'C: {0}'.format(fCO[0])
 print 'O: {0}\n'.format(fCO[1])
-print 'The total energy of O2 is {0:1.3f}'.format(eO2)
+print 'The total energy of O2 is {0:1.3f} eV/atom'.format(eO2)
 print 'The forces (eV/angstrom) on the atoms in O2 are'
 print 'O: {0}'.format(fO2[0])
 print 'O: {0}\n'.format(fO2[1])
-print 'The total energy of CO2 is {0:1.3f}'.format(eCO2)
+print 'The total energy of CO2 is {0:1.3f} eV/atom'.format(eCO2)
 print 'The forces (eV/angstrom) on the atoms in CO2 are'
 print 'O: {0}'.format(fCO2[0])
 print 'C: {0}'.format(fCO2[1])
 print 'O: {0}\n'.format(fCO2[2])
-print 'The reaction energy is {0:1.3f}'.format(re)
+print 'The reaction energy is {0:1.3f} eV/CO2'.format(re)
 
 #+END_SRC
 
 #+RESULTS:
 #+begin_example
-The total energy of CO is -15.168
+The total energy of CO is -15.168 ev/atom
 The forces (eV/angstrom) on the atoms in CO are
 C: [-0.033  0.     0.   ]
 O: [ 0.033  0.     0.   ]
 
-The total energy of O2 is -8.719
+The total energy of O2 is -8.719 eV/atom
 The forces (eV/angstrom) on the atoms in O2 are
 O: [ 0.019  0.     0.   ]
 O: [-0.019  0.     0.   ]
 
-The total energy of CO2 is -23.508
+The total energy of CO2 is -23.508 eV/atom
 The forces (eV/angstrom) on the atoms in CO2 are
 O: [-0.015  0.     0.   ]
 C: [ 0.  0.  0.]
 O: [ 0.015  0.     0.   ]
 
-The reaction energy is -3.980
+The reaction energy is -3.980 eV/CO2
 #+end_example
 
 ** Convergence test
@@ -216,6 +216,8 @@ plt.savefig('1b.png')
 plt.show()
 #+END_SRC
 
+#+RESULTS:
+
 #+caption: Convergence of CO, O_{2}, CO_{2}, and the reaction enthalpy of CO + 1/2O_{2} \rightarrow CO_{2} with respect to plane wave cutoff energy
 #+ATTR_LaTeX: placement=[H]
 [[./1b.png]]
@@ -253,7 +255,7 @@ with jasp('prob2a/CO',
     try:
         CO.get_potential_energy()
         energies, modes = calcCO.get_vibrational_modes()
-        print 'Energies of CO\n======='
+        print 'Energies of CO\n=============='
         for i, e in enumerate(energies):
             print '{0:02d}: {1} eV'.format(i, e)
     except:
@@ -267,7 +269,7 @@ with jasp('prob2a/O2',
     try:
         O2.get_potential_energy()
         energies, modes = calcO2.get_vibrational_modes()
-        print '\nEnergies of O2\n======='
+        print '\nEnergies of O2\n=============='
         for i, e in enumerate(energies):
             print '{0:02d}: {1} eV'.format(i, e)
     except:
@@ -281,7 +283,7 @@ with jasp('prob2a/CO2',
     try:
         CO2.get_potential_energy()
         energies, modes = calcCO2.get_vibrational_modes()
-        print '\nEnergies of CO2\n======'
+        print '\nEnergies of CO2\n==============='
         for i, e in enumerate(energies):
             print '{0:02d}: {1} eV'.format(i, e)
     except:
@@ -292,7 +294,7 @@ with jasp('prob2a/CO2',
 #+RESULTS:
 #+begin_example
 Energies of CO
-=======
+==============
 00: 0.261840727 eV
 01: 0.003767323 eV
 02: 0.003767323 eV
@@ -301,7 +303,7 @@ Energies of CO
 05: (0.000943898+0j) eV
 
 Energies of O2
-=======
+==============
 00: 0.189490603 eV
 01: 0.004093929 eV
 02: 1e-09 eV
@@ -310,7 +312,7 @@ Energies of O2
 05: (0.006638148+0j) eV
 
 Energies of CO2
-======
+===============
 00: 0.291924562 eV
 01: 0.16318552 eV
 02: 0.078492458 eV
@@ -364,12 +366,12 @@ for f in CO2freq:
         continue
     nu = f*c
     CO2e += 0.5*h*nu
-s = 'The reaction energy for CO oxidation with zero point contributions is {0:1.3f}'
+s = 'The reaction energy for CO oxidation with zero point contributions is {0:1.3f} eV'
 print s.format(CO2e - COe - 0.5*O2e)
 #+END_SRC
 
 #+RESULTS:
-: The reaction energy for CO oxidation with zero point contributions is -3.697
+: The reaction energy for CO oxidation with zero point contributions is -3.697 eV
 
 ** Compare your computed energy to a value from the literature.
 Provide a reference for your literature value.
@@ -382,9 +384,9 @@ Hf_CO = -113.805
 Hf_CO2 = -393.151
 Hf_O2 = 0 # Pure component is reference
 
-Hf_rxn = -393.151 + 113.805
+Hf_rxn = Hf_CO2 - HF_CO
 s = 'The experimental heat of reaction is {0:1.3f} eV/atom'
-print s.format(Hf_rxn * 0.010364)
+print s.format(Hf_rxn * 0.010364) # Convert from kJ/mol to eV/atom (atom as in formula unit)
 #+END_SRC
 
 #+RESULTS:
@@ -402,23 +404,23 @@ from ase.data import vdw_radii
 from ase.data.colors import cpk_colors
 from ase import Atom, Atoms
 
-# Lets first get the relaxed CO at 500 eV plane wave cutoff, center it,
+# Lets first get the relaxed CO2 at 500 eV plane wave cutoff, center it,
 # and recalculate the electron density in the centered cell
 
-with jasp('prob1b/e500/CO') as calc:
-    CO = calc.get_atoms()
-    CO.center()
-with jasp('prob3a/CO-centered',
+with jasp('prob1b/e500/CO2') as calc:
+    CO2 = calc.get_atoms()
+    CO2.center()
+with jasp('prob3a/CO2-centered',
           xc='PBE', lreal=False,
           encut=500, prec='Accurate',
           kpts=(1, 1, 1), ismear=1, sigma=0.05,
-          atoms=CO) as calc:  
-    CO.get_potential_energy()
+          atoms=CO2) as calc:  
+    CO2.get_potential_energy()
     x, y, z, cd = calc.get_charge_density()
 
 mlab.figure(bgcolor=(1, 1, 1))
 # plot the atoms as spheres
-for atom in CO:
+for atom in CO2:
     mlab.points3d(atom.x,
                   atom.y,
                   atom.z,
@@ -429,7 +431,7 @@ for atom in CO:
                   scale_mode='none')
 
 # draw the unit cell - there are 8 corners, and 12 connections
-a1, a2, a3 = CO.get_cell()
+a1, a2, a3 = CO2.get_cell()
 origin = [0, 0, 0]
 cell_matrix = [[origin,  a1],
                [origin,  a2],
@@ -456,11 +458,11 @@ mlab.contour3d(x, y, z, cd, transparent=True)
 # this view was empirically found by iteration
 mlab.view(azimuth=-90, elevation=90, distance='auto')
 
-mlab.savefig('co-density.png')
+mlab.savefig('co2-density.png')
 #+END_SRC
 
 #+RESULTS:
 
-#+caption: Charge density of CO
+#+caption: Charge density of CO2
 #+ATTR_LaTeX: placement=[H]
-[[./co-density.png]]
+[[./co2-density.png]]
