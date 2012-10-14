@@ -1,0 +1,170 @@
+#+TITLE:  Molecular Simulation HOMEWORK 4
+#+AUTHOR: Zhongnan Xu
+#+EMAIL:  zhongnanxu@cmu.edu
+#+DATE:   10/24/12 - Wednesday
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS:   LaTeX:dvipng
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+
+#+latex_header: \usepackage{adjustbox}
+#+latex_header: \usepackage{anysize}
+#+latex_header: \marginsize{1in}{1in}{1in}{1in}
+
+* Convergence study of tantalum
+** Planewave cutoff convergence
+Determine the planewave cutoff energy required to achieve a total energy convergence of 10 meV for bcc tantalum at its experimental lattice constant. Use a k-point grid of 10 \times 10 \times 10, and the PBE exchange correlation functional.
+
+#+BEGIN_SRC python :results output :exports both
+from ase import Atom, Atoms
+from ase.visualize import view
+from ase.lattice.cubic import BodyCenteredCubic
+import numpy as np
+import matplotlib.pyplot as plt
+from jasp import *
+
+# We will rely on the ase.lattice.cubic.BodyCenteredCubic module to give us
+# the correct experimental lattice constant. Note we use the primitive cell
+ready=True
+Ta = BodyCenteredCubic('Ta', directions=[[-0.5, 0.5, 0.5],
+                                         [0.5, -0.5, 0.5],
+                                         [0.5, 0.5, -0.5]])
+encuts = (150, 200, 250, 300, 350, 400, 450, 500, 550, 600)
+energies = []
+for cut in encuts:
+    with jasp('1.1/e{0:d}'.format(cut),
+              xc='PBE', lreal=False,
+              encut=cut, prec='Accurate',
+              kpts=(10, 10, 10), ismear=1, sigma=0.05,
+              atoms=Ta) as calc:
+        try:
+            energies.append(Ta.get_potential_energy())
+        except (VaspSubmitted, VaspQueued):
+            energies.append(None)
+            ready = False
+            pass
+assert len(encuts) == len(energies)
+if not ready:
+    import sys; sys.exit()
+
+import matplotlib.pyplot as plt
+from matplotlib.ticker import ScalarFormatter
+# First offset the energies by the last value and find the absolute value
+energies = np.array(energies)
+energies -= energies[-1]*np.ones(len(energies))
+energies = np.absolute(energies)
+energies = energies*1000
+fig = plt.figure(1, (5.5, 4.5))
+ax = fig.add_subplot(111)
+ax.plot(encuts, energies, label='Ta', marker='o')
+ax.axhline(10, ls='--', label='10 meV Convergence')
+ax.set_xlabel('Kinetic Energy Cutoff (eV)', size='large')
+ax.set_ylabel('Total Energy (meV/atom)', size='large')
+ax.legend(loc=0, prop={'size':'large'})
+ax.yaxis.set_major_formatter(ScalarFormatter(useOffset=False))
+fig.tight_layout()
+plt.savefig('1-1.png')
+plt.show()
+
+#+END_SRC
+
+#+RESULTS:
+
+#+CAPTION: Convergence of the total energy of BCC Ta at the experimental lattice cutoff
+#+ATTR_LaTeX: placement=[H]
+[[./1-1.png]]
+
+It is clear that the total energy of BCC Ta has already been converged at an energy cutoff of 200 eV. This should not be surprising considering the VASP site recommends a minimum cutoff of 220 eV.
+
+** k-point grid convergence
+Determine the Monkhorst-Pack k-point grid required to achieve a total energy convergence of 50 meV for bcc tantalum at its experimental lattice constant. Use a planewave cutoff of 350 eV for this study.
+
+#+BEGIN_SRC python :results output :exports both
+from ase import Atom, Atoms
+from ase.visualize import view
+from ase.lattice.cubic import BodyCenteredCubic
+import numpy as np
+import matplotlib.pyplot as plt
+from jasp import *
+
+# We will rely on the ase.lattice.cubic.BodyCenteredCubic module to give us
+# the correct experimental lattice constant. Note we use the primitive cell
+ready=True
+
+Ta = BodyCenteredCubic('Ta', directions=[[-0.5, 0.5, 0.5],
+                                         [0.5, -0.5, 0.5],
+                                         [0.5, 0.5, -0.5]])
+ks = (2, 4, 6, 8, 10, 12, 14, 16)
+kpoints = []
+for k in ks:
+    kpoints.append((k, k, k))
+energies = []
+for kpoint in kpoints:
+    with jasp('1.2/k{0:d}'.format(kpoint[0]),
+              xc='PBE', lreal=False,
+              encut=350, prec='Accurate',
+              kpts=kpoint, ismear=1, sigma=0.05,
+              atoms=Ta) as calc:
+        try:
+            energies.append(Ta.get_potential_energy())
+        except (VaspSubmitted, VaspQueued):
+            energies.append(None)
+            ready = False
+            pass
+assert len(ks) == len(energies)
+if not ready:
+    import sys; sys.exit()
+
+import matplotlib.pyplot as plt
+from matplotlib.ticker import ScalarFormatter
+# First offset the energies by the last value and find the absolute value
+energies = np.array(energies)
+energies -= energies[-1]*np.ones(len(energies))
+energies = np.absolute(energies)
+energies = energies*1000
+fig = plt.figure(1, (5.5, 4.5))
+ax = fig.add_subplot(111)
+ax.plot(ks, energies, label='Ta', marker='o')
+ax.axhline(50, ls='--', label='50 meV convergence')
+ax.set_ylim((0, 100))
+ax.set_xlabel(r'Kpoint Grid (N$\times$ N$\times$ N)', size='large')
+ax.set_ylabel('Total Energy (meV/atom)', size='large')
+ax.legend(loc=0, prop={'size':'large'})
+ax.yaxis.set_major_formatter(ScalarFormatter(useOffset=False))
+fig.tight_layout()
+plt.savefig('1-2.png')
+plt.show()
+#+END_SRC
+
+#+RESULTS:
+
+#+CAPTION: Convergence of BCC Ta with respect to increasing k-point grid
+#+ATTR_LATEX: placement=[H]
+[[./1-2.png]]
+* Convergence study of graphite
+** Planewave convergence
+Determine the planewave cutoff energy required to get convergence of 10 meV or better for graphite at its equilibrium lattice constant. Use a k-point grid of (6,6,6) for this study.
+
+** k-point convergence
+Determine the k-point grid required to get convergence of 50 meV or better for graphite at its equilibrium lattice constant. Use a planewave cutoff of 350 eV for this study.
+
+* Determine the DFT lattice constant of bcc tantalum
+Use the parameters you estimated in the previous problem. Construct an equation of state and determine the lattice constant and bulk modulus of tantalum. Compare your answers to literature values, and cite the source of your comparison.
+
+* Determine the DFT lattice constant of fcc tantalum
+Construct an equation of state to determine the lattice constant of fcc tantalum. You can assume the same parameters that were good for the bcc structure are good for the fcc structure. Which structure is more stable, fcc or bcc?
+
+* Determine graphite lattice parameters
+The crystal structure of graphite can be found at http://cst-www.nrl.navy.mil/lattice/struk/a9.html (or you can use the builtin mod:ase functions).
+
+Compute the geometry optimized total energy for graphite. Use parameters determined from the convergence study to ensure the total energy is converged to better than 50 meV. Compare your results to experimental data. Cite your source.
+
+* Tantalum carbide lattice parameters
+Tantalum carbide is a hard material. Use DFT to compute the lattice constant of cubic tantalum carbide in the rock salt structure (NaCl or B1), and the bulk modulus. The crystal structure of tantalum carbide can be found at http://cst-www.nrl.navy.mil/lattice/struk/b1.html or in the mod:ase.lattice module. Compare the bulk modulus of the TaC to that of bcc tantalum. Which is harder?
+
+The experimental lattice constant is 4.455 \AA, and the experimental bulk modulus is 3.45 Mbar. How do your results compare to this?
+
+* Estimate the formation energy of TaC.
+Compute the formation energy of TaC for the reaction Ta + C_{graphite} $\rightarrow$ TaC. Compare your anser to the value reported in http://pubs.acs.org/doi/pdf/10.1021/j100786a027. Discuss any reasons for discrepancy. Remember that you must use the same ENCUT for all the calculations in this problem, and you must use the largest ENCUT for all calculations that ensures the accuracy level you want.

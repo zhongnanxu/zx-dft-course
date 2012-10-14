@@ -40,7 +40,8 @@ with jasp('prob1a/CO',
           encut=250, prec='Accurate',
           kpts=(1, 1, 1), ismear=1, sigma=0.05,
           ibrion=1, nsw=50, ediffg=-0.05, isif=2,
-          atoms=CO) as COcalc:
+          atoms=CO) 
+as COcalc:
     try:
         eCO = CO.get_potential_energy()
         fCO = CO.get_forces()
@@ -88,25 +89,6 @@ print 'The reaction energy is {0:1.3f} eV/CO2'.format(re)
 #+END_SRC
 
 #+RESULTS:
-#+begin_example
-The total energy of CO is -15.168 ev/atom
-The forces (eV/angstrom) on the atoms in CO are
-C: [-0.033  0.     0.   ]
-O: [ 0.033  0.     0.   ]
-
-The total energy of O2 is -8.719 eV/atom
-The forces (eV/angstrom) on the atoms in O2 are
-O: [ 0.019  0.     0.   ]
-O: [-0.019  0.     0.   ]
-
-The total energy of CO2 is -23.508 eV/atom
-The forces (eV/angstrom) on the atoms in CO2 are
-O: [-0.015  0.     0.   ]
-C: [ 0.  0.  0.]
-O: [ 0.015  0.     0.   ]
-
-The reaction energy is -3.980 eV/CO2
-#+end_example
 
 ** Convergence test
 Repeat the previous problem at 350, 450, and 500 eV. Reoptimize the geometry at each ENCUT value. Compare (in a graph) the convergence of the total energy of each species with the convergence of the reaction energy. Which converges faster?
