@@ -1,0 +1,2691 @@
+PROCAR lm decomposed
+# of k-points:   28         # of bands:   9         # of ions:   1
+
+ k-point    1 :    0.08333333 0.08333333 0.08333333     weight = 0.00925926
+
+band   1 # energy   -2.11915907 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.809  0.007  0.007  0.007  0.000  0.000  0.000  0.000  0.000  0.829
+ 
+band   2 # energy    5.94425992 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.003  0.003  0.003  0.325  0.325  0.000  0.325  0.000  0.985
+ 
+band   3 # energy    6.30875617 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.001  0.000  0.002  0.117  0.639  0.001  0.231  0.003  0.992
+ 
+band   4 # energy    6.30875617 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.001  0.001  0.000  0.541  0.019  0.003  0.427  0.001  0.992
+ 
+band   5 # energy    9.01750048 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.000  0.002  0.198  0.001  0.769  0.971
+ 
+band   6 # energy    9.01750048 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.002  0.000  0.769  0.001  0.198  0.971
+ 
+band   7 # energy   18.71418490 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.008  0.008  0.000  0.008  0.000  0.026
+ 
+band   8 # energy   19.27021170 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.816  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.816
+ 
+band   9 # energy   21.70758975 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.063  0.034  0.034  0.034  0.005  0.005  0.000  0.005  0.000  0.178
+ 
+
+ k-point    2 :    0.25000000 0.08333333 0.08333333     weight = 0.02777778
+
+band   1 # energy   -0.81898465 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.721  0.051  0.051  0.005  0.003  0.019  0.001  0.003  0.002  0.855
+ 
+band   2 # energy    5.09370686 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.007  0.007  0.044  0.434  0.036  0.000  0.434  0.000  0.963
+ 
+band   3 # energy    6.56111545 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.015  0.015  0.001  0.020  0.702  0.049  0.020  0.148  0.969
+ 
+band   4 # energy    6.81190206 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.443  0.000  0.067  0.443  0.022  0.977
+ 
+band   5 # energy    8.25715693 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.002  0.002  0.000  0.044  0.000  0.636  0.044  0.212  0.940
+ 
+band   6 # energy    9.49982341 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.004  0.005  0.005  0.000  0.004  0.184  0.187  0.004  0.562  0.954
+ 
+band   7 # energy   19.26283268 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 41.728  0.001  0.001  0.001  0.000  0.001  0.000  0.000  0.001 41.734
+ 
+band   8 # energy   19.50694609 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  2.149  0.026  0.026  0.012  0.000  0.028  0.006  0.000  0.019  2.268
+ 
+band   9 # energy   21.25781027 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.040  0.010  0.010  0.003  0.074  0.030  0.001  0.074  0.003  0.244
+ 
+
+ k-point    3 :    0.41666667 0.08333333 0.08333333     weight = 0.02777778
+
+band   1 # energy    1.03637247 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.468  0.046  0.046  0.002  0.111  0.142  0.001  0.111  0.002  0.930
+ 
+band   2 # energy    5.14926535 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.034  0.127  0.127  0.153  0.172  0.046  0.012  0.172  0.035  0.878
+ 
+band   3 # energy    5.95630741 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.004  0.001  0.001  0.012  0.090  0.294  0.118  0.090  0.353  0.962
+ 
+band   4 # energy    6.37558566 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.195  0.000  0.433  0.195  0.144  0.968
+ 
+band   5 # energy    9.80640687 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.006  0.006  0.000  0.282  0.000  0.268  0.282  0.089  0.934
+ 
+band   6 # energy   11.27806241 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.011  0.021  0.021  0.001  0.031  0.415  0.106  0.031  0.319  0.956
+ 
+band   7 # energy   16.93055426 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.191  0.035  0.035  0.029  0.052  0.109  0.005  0.052  0.014  0.522
+ 
+band   8 # energy   19.27176417 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.237  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.238
+ 
+band   9 # energy   19.86217220 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.862  0.068  0.068  0.035  0.075  0.031  0.001  0.075  0.004  1.219
+ 
+
+ k-point    4 :   -0.41666667 0.08333333 0.08333333     weight = 0.02777778
+
+band   1 # energy    1.36727927 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.342  0.001  0.001  0.020  0.191  0.222  0.000  0.191  0.001  0.968
+ 
+band   2 # energy    5.41426646 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.078  0.078  0.041  0.043  0.062  0.137  0.043  0.412  0.896
+ 
+band   3 # energy    6.19127901 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.003  0.003  0.000  0.186  0.000  0.439  0.186  0.146  0.964
+ 
+band   4 # energy    6.23849114 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.005  0.157  0.157  0.190  0.032  0.268  0.015  0.032  0.046  0.902
+ 
+band   5 # energy   11.48685066 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.301  0.000  0.272  0.301  0.091  0.965
+ 
+band   6 # energy   11.65375640 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.022  0.022  0.051  0.097  0.314  0.084  0.097  0.253  0.941
+ 
+band   7 # energy   15.46659842 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.470  0.003  0.003  0.004  0.166  0.124  0.000  0.166  0.000  0.936
+ 
+band   8 # energy   18.35486636 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.004  0.013  0.013  0.024  0.000  0.026  0.004  0.000  0.011  0.097
+ 
+band   9 # energy   19.27716098 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 44.002  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 44.003
+ 
+
+ k-point    5 :   -0.25000000 0.08333333 0.08333333     weight = 0.02777778
+
+band   1 # energy    0.54528609 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.568  0.020  0.020  0.092  0.065  0.059  0.002  0.065  0.007  0.899
+ 
+band   2 # energy    4.80298439 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.020  0.085  0.085  0.056  0.100  0.457  0.004  0.100  0.013  0.922
+ 
+band   3 # energy    6.14848553 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.003  0.001  0.001  0.000  0.100  0.229  0.130  0.100  0.391  0.956
+ 
+band   4 # energy    6.64814585 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.009  0.009  0.000  0.275  0.000  0.302  0.275  0.101  0.970
+ 
+band   5 # energy    9.37631941 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.008  0.005  0.005  0.040  0.161  0.176  0.095  0.161  0.284  0.933
+ 
+band   6 # energy   10.37804967 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.006  0.006  0.000  0.194  0.000  0.411  0.194  0.137  0.947
+ 
+band   7 # energy   17.74671138 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.096  0.033  0.033  0.027  0.052  0.012  0.004  0.052  0.012  0.321
+ 
+band   8 # energy   19.27508056 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.770  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.770
+ 
+band   9 # energy   21.25260700 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.291  0.068  0.068  0.083  0.089  0.128  0.002  0.089  0.006  0.825
+ 
+
+ k-point    6 :   -0.08333333 0.08333333 0.08333333     weight = 0.02777778
+
+band   1 # energy   -1.43480864 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.765  0.006  0.006  0.057  0.002  0.000  0.001  0.002  0.002  0.841
+ 
+band   2 # energy    5.34329848 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.008  0.008  0.001  0.061  0.833  0.000  0.061  0.000  0.972
+ 
+band   3 # energy    6.64472883 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.006  0.006  0.003  0.394  0.130  0.011  0.394  0.032  0.977
+ 
+band   4 # energy    6.66814435 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.010  0.010  0.000  0.467  0.000  0.022  0.467  0.007  0.983
+ 
+band   5 # energy    8.24938875 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.003  0.000  0.000  0.003  0.018  0.005  0.223  0.018  0.669  0.941
+ 
+band   6 # energy    9.34346725 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.015  0.000  0.704  0.015  0.235  0.968
+ 
+band   7 # energy   19.27014193 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.731  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.732
+ 
+band   8 # energy   19.99138164 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.025  0.002  0.002  0.002  0.002  0.056  0.001  0.002  0.002  0.094
+ 
+band   9 # energy   20.90013387 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.139  0.021  0.021  0.032  0.020  0.018  0.008  0.020  0.025  0.303
+ 
+
+ k-point    7 :    0.25000000 0.25000000 0.08333333     weight = 0.02777778
+
+band   1 # energy   -0.21777354 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.665  0.005  0.140  0.005  0.001  0.005  0.036  0.005  0.000  0.861
+ 
+band   2 # energy    4.43433723 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.008  0.001  0.008  0.920  0.017  0.001  0.017  0.000  0.971
+ 
+band   3 # energy    6.58886289 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.014  0.007  0.007  0.007  0.017  0.125  0.631  0.125  0.000  0.934
+ 
+band   4 # energy    7.39631891 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.023  0.000  0.023  0.000  0.418  0.000  0.418  0.082  0.964
+ 
+band   5 # energy    7.93782291 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.010  0.017  0.022  0.017  0.029  0.305  0.243  0.305  0.000  0.947
+ 
+band   6 # energy    9.93516640 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.001  0.000  0.001  0.000  0.039  0.000  0.039  0.884  0.965
+ 
+band   7 # energy   19.27049052 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.648  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.648
+ 
+band   8 # energy   20.71562749 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.213  0.036  0.021  0.036  0.000  0.028  0.093  0.028  0.000  0.454
+ 
+band   9 # energy   22.40308560 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.010  0.007  0.003  0.007  0.180  0.018  0.001  0.018  0.000  0.245
+ 
+
+ k-point    8 :    0.41666667 0.25000000 0.08333333     weight = 0.05555556
+
+band   1 # energy    1.54750392 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.447  0.032  0.175  0.001  0.025  0.052  0.144  0.010  0.000  0.886
+ 
+band   2 # energy    3.89018486 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.003  0.016  0.006  0.064  0.795  0.006  0.024  0.052  0.000  0.965
+ 
+band   3 # energy    5.37433720 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.048  0.015  0.040  0.000  0.037  0.236  0.504  0.008  0.034  0.922
+ 
+band   4 # energy    7.98336892 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.004  0.022  0.028  0.017  0.016  0.137  0.077  0.259  0.380  0.940
+ 
+band   5 # energy    9.34958930 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.007  0.012  0.048  0.040  0.067  0.040  0.097  0.513  0.105  0.928
+ 
+band   6 # energy   11.56207834 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.022  0.023  0.029  0.000  0.001  0.420  0.040  0.009  0.423  0.968
+ 
+band   7 # energy   18.57704970 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.368  0.166  0.085  0.042  0.012  0.127  0.012  0.043  0.027  0.883
+ 
+band   8 # energy   19.28488050 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.718  0.003  0.001  0.001  0.000  0.003  0.000  0.001  0.000 43.726
+ 
+band   9 # energy   21.84904998 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.070  0.011  0.087  0.025  0.030  0.001  0.206  0.015  0.003  0.447
+ 
+
+ k-point    9 :   -0.41666667 0.25000000 0.08333333     weight = 0.05555556
+
+band   1 # energy    2.56369726 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.232  0.000  0.068  0.024  0.338  0.157  0.052  0.087  0.000  0.958
+ 
+band   2 # energy    4.04121550 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.117  0.007  0.064  0.006  0.047  0.546  0.013  0.060  0.863
+ 
+band   3 # energy    5.44160072 # occ.  1.00000011
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.014  0.038  0.166  0.090  0.339  0.260  0.018  0.011  0.010  0.945
+ 
+band   4 # energy    7.38735898 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.008  0.024  0.019  0.006  0.030  0.068  0.205  0.573  0.935
+ 
+band   5 # energy   11.05039867 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.034  0.003  0.006  0.002  0.074  0.173  0.028  0.436  0.179  0.936
+ 
+band   6 # energy   13.41758360 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.002  0.057  0.182  0.120  0.136  0.189  0.166  0.001  0.062  0.915
+ 
+band   7 # energy   14.63709450 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.496  0.003  0.001  0.004  0.053  0.116  0.021  0.203  0.024  0.920
+ 
+band   8 # energy   19.27548778 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.910  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.911
+ 
+band   9 # energy   20.68826832 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.028  0.013  0.117  0.000  0.012  0.063  0.195  0.012  0.006  0.446
+ 
+
+ k-point   10 :   -0.25000000 0.25000000 0.08333333     weight = 0.05555556
+
+band   1 # energy    2.26242136 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.385  0.067  0.002  0.149  0.189  0.054  0.016  0.027  0.026  0.915
+ 
+band   2 # energy    4.39764782 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.004  0.057  0.125  0.027  0.022  0.399  0.129  0.116  0.039  0.919
+ 
+band   3 # energy    4.81918227 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.017  0.015  0.029  0.002  0.238  0.182  0.354  0.027  0.068  0.931
+ 
+band   4 # energy    7.52037817 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.002  0.002  0.049  0.012  0.032  0.079  0.108  0.645  0.931
+ 
+band   5 # energy    9.36221143 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.017  0.015  0.000  0.211  0.006  0.559  0.120  0.929
+ 
+band   6 # energy   12.66728376 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.107  0.021  0.003  0.043  0.510  0.002  0.295  0.001  0.000  0.981
+ 
+band   7 # energy   17.23501769 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.225  0.136  0.028  0.117  0.044  0.024  0.122  0.038  0.002  0.737
+ 
+band   8 # energy   19.27853179 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.994  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.996
+ 
+band   9 # energy   21.14151563 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.004  0.015  0.470  0.002  0.003  0.177  0.039  0.220  0.001  0.931
+ 
+
+ k-point   11 :   -0.08333333 0.25000000 0.08333333     weight = 0.05555556
+
+band   1 # energy    0.29043432 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.625  0.040  0.003  0.126  0.045  0.008  0.008  0.008  0.012  0.874
+ 
+band   2 # energy    4.53411676 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.003  0.012  0.061  0.007  0.013  0.706  0.002  0.156  0.002  0.961
+ 
+band   3 # energy    6.12905954 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.004  0.024  0.000  0.001  0.367  0.038  0.317  0.004  0.184  0.939
+ 
+band   4 # energy    7.25354602 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.006  0.011  0.006  0.101  0.084  0.046  0.429  0.272  0.956
+ 
+band   5 # energy    8.27704525 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.006  0.004  0.009  0.025  0.072  0.103  0.001  0.294  0.426  0.939
+ 
+band   6 # energy   10.44902290 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.009  0.016  0.000  0.012  0.311  0.001  0.564  0.010  0.032  0.956
+ 
+band   7 # energy   19.21162558 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 20.368  0.031  0.009  0.019  0.042  0.001  0.026  0.006  0.005 20.507
+ 
+band   8 # energy   19.33495503 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 23.549  0.028  0.009  0.015  0.042  0.001  0.026  0.006  0.006 23.682
+ 
+band   9 # energy   22.47666081 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.082  0.051  0.038  0.041  0.044  0.160  0.001  0.089  0.004  0.511
+ 
+
+ k-point   12 :    0.41666667 0.41666667 0.08333333     weight = 0.02777778
+
+band   1 # energy    1.61356421 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.224  0.004  0.079  0.004  0.005  0.001  0.566  0.001  0.000  0.885
+ 
+band   2 # energy    2.92130321 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.007  0.000  0.007  0.975  0.002  0.004  0.002  0.000  0.998
+ 
+band   3 # energy    6.52438738 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.149  0.002  0.410  0.002  0.002  0.058  0.240  0.058  0.000  0.921
+ 
+band   4 # energy    9.73361665 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.037  0.000  0.037  0.000  0.253  0.000  0.253  0.354  0.933
+ 
+band   5 # energy   10.79501620 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.011  0.047  0.076  0.047  0.007  0.354  0.032  0.354  0.000  0.927
+ 
+band   6 # energy   11.43097319 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.006  0.000  0.006  0.000  0.178  0.000  0.178  0.600  0.966
+ 
+band   7 # energy   18.03172429 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.149  0.187  0.060  0.187  0.008  0.081  0.008  0.081  0.000  0.761
+ 
+band   8 # energy   19.27444724 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.531  0.002  0.000  0.002  0.000  0.001  0.000  0.001  0.000 43.537
+ 
+band   9 # energy   19.41288194 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.293  0.000  0.293  0.000  0.086  0.000  0.086  0.022  0.780
+ 
+
+ k-point   13 :   -0.41666667 0.41666667 0.08333333     weight = 0.05555556
+
+band   1 # energy    2.09488781 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.093  0.035  0.008  0.001  0.033  0.001  0.708  0.000  0.004  0.883
+ 
+band   2 # energy    3.06035411 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.013  0.000  0.062  0.890  0.001  0.021  0.002  0.000  0.989
+ 
+band   3 # energy    6.54866941 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.034  0.001  0.462  0.000  0.003  0.370  0.017  0.029  0.008  0.924
+ 
+band   4 # energy    9.53273725 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.031  0.056  0.026  0.007  0.000  0.001  0.007  0.021  0.760  0.911
+ 
+band   5 # energy   11.74068824 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.010  0.002  0.001  0.017  0.006  0.124  0.000  0.772  0.021  0.952
+ 
+band   6 # energy   13.88430500 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.023  0.007  0.312  0.015  0.003  0.488  0.023  0.093  0.008  0.972
+ 
+band   7 # energy   14.92941518 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.407  0.090  0.015  0.138  0.033  0.003  0.016  0.031  0.089  0.821
+ 
+band   8 # energy   17.90122426 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.071  0.029  0.022  0.495  0.037  0.002  0.045  0.033  0.076  0.810
+ 
+band   9 # energy   19.27352015 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.322  0.005  0.000  0.001  0.000  0.000  0.001  0.000  0.002 43.331
+ 
+
+ k-point   14 :   -0.25000000 0.41666667 0.08333333     weight = 0.05555556
+
+band   1 # energy    3.16137690 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.107  0.007  0.016  0.015  0.412  0.020  0.340  0.011  0.007  0.935
+ 
+band   2 # energy    3.66464251 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.038  0.131  0.002  0.129  0.185  0.029  0.316  0.011  0.043  0.886
+ 
+band   3 # energy    5.19455547 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.009  0.268  0.020  0.079  0.468  0.002  0.094  0.001  0.941
+ 
+band   4 # energy    8.04481939 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.024  0.008  0.007  0.041  0.006  0.005  0.044  0.049  0.731  0.916
+ 
+band   5 # energy   10.69452580 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.023  0.001  0.009  0.000  0.019  0.242  0.002  0.606  0.035  0.936
+ 
+band   6 # energy   13.04019027 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.425  0.018  0.017  0.083  0.238  0.002  0.014  0.023  0.050  0.870
+ 
+band   7 # energy   16.28242824 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.104  0.037  0.255  0.075  0.013  0.179  0.154  0.146  0.002  0.964
+ 
+band   8 # energy   19.06957467 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  2.221  0.049  0.234  0.129  0.024  0.091  0.218  0.080  0.008  3.055
+ 
+band   9 # energy   19.29057457 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 41.827  0.004  0.014  0.008  0.001  0.005  0.018  0.004  0.001 41.883
+ 
+
+ k-point   15 :   -0.08333333 0.41666667 0.08333333     weight = 0.05555556
+
+band   1 # energy    1.73619644 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.350  0.012  0.003  0.068  0.189  0.194  0.003  0.124  0.008  0.952
+ 
+band   2 # energy    4.84412567 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.005  0.129  0.081  0.060  0.071  0.014  0.318  0.027  0.158  0.862
+ 
+band   3 # energy    5.61046176 # occ.  0.93530195
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.026  0.032  0.104  0.078  0.159  0.400  0.112  0.017  0.027  0.954
+ 
+band   4 # energy    6.69132281 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.004  0.004  0.016  0.047  0.049  0.147  0.244  0.442  0.953
+ 
+band   5 # energy   10.60766270 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.002  0.013  0.035  0.005  0.177  0.011  0.410  0.280  0.934
+ 
+band   6 # energy   12.24905494 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.032  0.028  0.021  0.054  0.441  0.033  0.340  0.013  0.002  0.963
+ 
+band   7 # energy   15.94871442 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.367  0.044  0.032  0.041  0.106  0.082  0.026  0.135  0.001  0.835
+ 
+band   8 # energy   19.27593845 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.808  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.809
+ 
+band   9 # energy   19.66480904 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.196  0.013  0.013  0.043  0.007  0.043  0.027  0.009  0.022  0.373
+ 
+
+ k-point   16 :   -0.41666667-0.41666667 0.08333333     weight = 0.02777778
+
+band   1 # energy    1.54094373 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.124  0.004  0.008  0.004  0.004  0.000  0.743  0.000  0.000  0.887
+ 
+band   2 # energy    2.57951348 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.007  0.000  0.007  0.991  0.000  0.003  0.000  0.000  1.009
+ 
+band   3 # energy    7.79943630 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.037  0.000  0.698  0.000  0.000  0.075  0.027  0.075  0.000  0.914
+ 
+band   4 # energy   10.82416520 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.022  0.000  0.022  0.000  0.059  0.000  0.059  0.780  0.940
+ 
+band   5 # energy   11.94162866 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.002  0.000  0.002  0.000  0.409  0.000  0.409  0.143  0.967
+ 
+band   6 # energy   12.45844088 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.002  0.018  0.136  0.018  0.001  0.387  0.006  0.387  0.000  0.956
+ 
+band   7 # energy   15.91098929 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.269  0.198  0.010  0.198  0.010  0.023  0.025  0.023  0.000  0.756
+ 
+band   8 # energy   17.57785448 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.324  0.000  0.324  0.000  0.018  0.000  0.018  0.059  0.743
+ 
+band   9 # energy   18.85327535 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  2.098  0.105  0.043  0.105  0.004  0.008  0.274  0.008  0.000  2.646
+ 
+
+ k-point   17 :   -0.25000000-0.41666667 0.08333333     weight = 0.05555556
+
+band   1 # energy    2.16852463 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.199  0.033  0.086  0.000  0.047  0.014  0.501  0.004  0.002  0.886
+ 
+band   2 # energy    3.35268017 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.016  0.001  0.063  0.834  0.004  0.040  0.016  0.001  0.975
+ 
+band   3 # energy    5.55761323 # occ.  1.01887745
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.120  0.006  0.247  0.000  0.023  0.299  0.191  0.017  0.025  0.929
+ 
+band   4 # energy    8.96243810 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.037  0.056  0.016  0.003  0.057  0.038  0.153  0.561  0.923
+ 
+band   5 # energy   10.79124237 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.011  0.041  0.056  0.031  0.003  0.023  0.639  0.124  0.927
+ 
+band   6 # energy   12.59922413 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.054  0.021  0.107  0.008  0.003  0.547  0.055  0.001  0.178  0.974
+ 
+band   7 # energy   16.55838156 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.285  0.154  0.079  0.070  0.020  0.048  0.002  0.058  0.060  0.776
+ 
+band   8 # energy   19.27453402 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.483  0.000  0.000  0.004  0.000  0.000  0.000  0.002  0.000 43.490
+ 
+band   9 # energy   19.59012715 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.418  0.075  0.016  0.489  0.038  0.003  0.003  0.142  0.044  1.228
+ 
+
+ k-point   18 :   -0.25000000-0.25000000 0.08333333     weight = 0.02777778
+
+band   1 # energy    1.07575889 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.470  0.004  0.179  0.004  0.003  0.005  0.207  0.005  0.000  0.877
+ 
+band   2 # energy    3.57071560 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.008  0.001  0.008  0.951  0.006  0.002  0.006  0.000  0.981
+ 
+band   3 # energy    5.94862282 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.086  0.003  0.115  0.003  0.005  0.050  0.603  0.050  0.000  0.915
+ 
+band   4 # energy    8.46268283 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.035  0.000  0.035  0.000  0.351  0.000  0.351  0.168  0.941
+ 
+band   5 # energy    9.11493396 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.011  0.039  0.038  0.039  0.016  0.365  0.064  0.365  0.000  0.936
+ 
+band   6 # energy   10.67952329 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.004  0.000  0.004  0.000  0.082  0.000  0.082  0.795  0.967
+ 
+band   7 # energy   19.26830560 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.361  0.000  0.001  0.000  0.000  0.000  0.000  0.000  0.000 43.363
+ 
+band   8 # energy   20.42189188 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.497  0.159  0.047  0.159  0.007  0.103  0.023  0.103  0.000  1.098
+ 
+band   9 # energy   22.65976798 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.050  0.027  0.075  0.027  0.011  0.008  0.332  0.008  0.000  0.538
+ 
+
+ k-point   19 :    0.25000000 0.25000000 0.25000000     weight = 0.00925926
+
+band   1 # energy   -0.33365766 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.672  0.039  0.039  0.039  0.029  0.029  0.000  0.029  0.000  0.874
+ 
+band   2 # energy    5.02743829 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.010  0.049  0.049  0.049  0.261  0.261  0.000  0.261  0.000  0.940
+ 
+band   3 # energy    6.58046893 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.001  0.004  0.002  0.413  0.177  0.277  0.077  0.021  0.971
+ 
+band   4 # energy    6.58046893 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.003  0.000  0.002  0.032  0.268  0.021  0.367  0.277  0.971
+ 
+band   5 # energy    9.18094742 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.001  0.005  0.001  0.194  0.047  0.647  0.050  0.000  0.946
+ 
+band   6 # energy    9.18094742 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.004  0.000  0.004  0.000  0.147  0.000  0.144  0.647  0.946
+ 
+band   7 # energy   18.15178627 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.059  0.022  0.022  0.022  0.012  0.012  0.000  0.012  0.000  0.162
+ 
+band   8 # energy   19.27436084 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.818  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.818
+ 
+band   9 # energy   21.78916625 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.117  0.036  0.036  0.036  0.113  0.113  0.000  0.113  0.000  0.564
+ 
+
+ k-point   20 :    0.41666667 0.25000000 0.25000000     weight = 0.02777778
+
+band   1 # energy    1.18971375 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.534  0.098  0.098  0.000  0.019  0.120  0.002  0.019  0.006  0.897
+ 
+band   2 # energy    4.58068531 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.007  0.021  0.021  0.125  0.381  0.005  0.002  0.381  0.007  0.948
+ 
+band   3 # energy    5.62101014 # occ.  0.82587120
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.023  0.023  0.001  0.016  0.353  0.120  0.016  0.361  0.917
+ 
+band   4 # energy    7.13063443 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.004  0.004  0.000  0.129  0.000  0.511  0.129  0.170  0.947
+ 
+band   5 # energy    8.47647883 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.003  0.003  0.000  0.346  0.000  0.178  0.346  0.059  0.936
+ 
+band   6 # energy   11.63728944 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.035  0.029  0.029  0.000  0.003  0.445  0.106  0.003  0.318  0.969
+ 
+band   7 # energy   18.40450872 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.214  0.083  0.083  0.018  0.014  0.121  0.020  0.014  0.061  0.627
+ 
+band   8 # energy   19.28141657 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.840  0.000  0.000  0.000  0.000  0.001  0.000  0.000  0.001 43.843
+ 
+band   9 # energy   21.49168054 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.140  0.090  0.090  0.017  0.043  0.006  0.006  0.043  0.018  0.452
+ 
+
+ k-point   21 :   -0.41666667 0.25000000 0.25000000     weight = 0.02777778
+
+band   1 # energy    2.86263024 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.268  0.071  0.071  0.013  0.046  0.435  0.001  0.046  0.004  0.957
+ 
+band   2 # energy    4.13510184 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.085  0.085  0.003  0.000  0.047  0.158  0.000  0.474  0.855
+ 
+band   3 # energy    5.01612634 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.005  0.020  0.020  0.229  0.299  0.066  0.001  0.299  0.004  0.944
+ 
+band   4 # energy    7.54739174 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.018  0.018  0.000  0.046  0.000  0.600  0.046  0.200  0.930
+ 
+band   5 # energy    9.83844168 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.002  0.002  0.000  0.420  0.000  0.065  0.420  0.022  0.931
+ 
+band   6 # energy   12.80583926 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.314  0.020  0.020  0.008  0.000  0.436  0.030  0.000  0.091  0.920
+ 
+band   7 # energy   16.82734682 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.176  0.114  0.114  0.073  0.067  0.001  0.063  0.067  0.190  0.866
+ 
+band   8 # energy   19.27653843 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.861  0.000  0.000  0.001  0.001  0.000  0.000  0.001  0.000 43.864
+ 
+band   9 # energy   19.94806213 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.139  0.029  0.029  0.443  0.192  0.002  0.020  0.192  0.061  1.107
+ 
+
+ k-point   22 :   -0.25000000 0.25000000 0.25000000     weight = 0.02777778
+
+band   1 # energy    2.33705860 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.208  0.001  0.001  0.080  0.038  0.278  0.071  0.038  0.212  0.928
+ 
+band   2 # energy    3.71916913 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.093  0.093  0.004  0.025  0.371  0.076  0.025  0.227  0.912
+ 
+band   3 # energy    5.46289156 # occ.  1.00000242
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.081  0.004  0.004  0.225  0.147  0.194  0.034  0.147  0.103  0.939
+ 
+band   4 # energy    7.96991465 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.025  0.025  0.000  0.156  0.000  0.430  0.156  0.143  0.935
+ 
+band   5 # energy   11.66205467 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.316  0.000  0.252  0.316  0.084  0.968
+ 
+band   6 # energy   12.60342175 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.078  0.078  0.233  0.151  0.073  0.035  0.151  0.105  0.904
+ 
+band   7 # energy   15.11843596 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.439  0.046  0.046  0.014  0.133  0.046  0.002  0.133  0.006  0.864
+ 
+band   8 # energy   19.27532639 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.863  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.865
+ 
+band   9 # energy   21.00337554 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.117  0.018  0.015  0.135  0.034  0.001  0.083  0.028  0.234  0.665
+ 
+
+ k-point   23 :    0.41666667 0.41666667 0.25000000     weight = 0.02777778
+
+band   1 # energy    1.59137516 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.407  0.005  0.127  0.005  0.146  0.082  0.068  0.082  0.000  0.922
+ 
+band   2 # energy    4.33763117 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.012  0.098  0.041  0.098  0.391  0.040  0.186  0.040  0.000  0.907
+ 
+band   3 # energy    5.46697763 # occ.  1.00000421
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.040  0.001  0.050  0.001  0.272  0.079  0.422  0.079  0.000  0.943
+ 
+band   4 # energy    7.14152279 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.017  0.000  0.017  0.000  0.220  0.000  0.220  0.477  0.951
+ 
+band   5 # energy   10.64450225 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.017  0.035  0.113  0.035  0.103  0.197  0.221  0.197  0.000  0.918
+ 
+band   6 # energy   11.37265078 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.003  0.000  0.003  0.000  0.243  0.000  0.243  0.470  0.963
+ 
+band   7 # energy   17.06460577 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.241  0.069  0.057  0.069  0.040  0.122  0.006  0.122  0.000  0.726
+ 
+band   8 # energy   19.27781584 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.914  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.915
+ 
+band   9 # energy   20.55235027 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.125  0.014  0.068  0.014  0.050  0.002  0.109  0.002  0.000  0.385
+ 
+
+ k-point   24 :   -0.41666667 0.41666667 0.25000000     weight = 0.05555556
+
+band   1 # energy    3.05441329 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.151  0.077  0.109  0.005  0.101  0.074  0.342  0.013  0.020  0.893
+ 
+band   2 # energy    3.88894645 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.025  0.044  0.006  0.090  0.324  0.124  0.205  0.036  0.069  0.922
+ 
+band   3 # energy    4.63293490 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.062  0.001  0.103  0.067  0.320  0.303  0.045  0.005  0.044  0.951
+ 
+band   4 # energy    8.15873795 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.009  0.012  0.086  0.006  0.003  0.001  0.157  0.064  0.576  0.914
+ 
+band   5 # energy   10.58687988 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.013  0.002  0.006  0.038  0.105  0.030  0.012  0.683  0.037  0.926
+ 
+band   6 # energy   13.33891276 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.251  0.007  0.103  0.012  0.003  0.438  0.095  0.016  0.022  0.946
+ 
+band   7 # energy   16.16426103 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.225  0.090  0.128  0.096  0.054  0.003  0.007  0.071  0.186  0.858
+ 
+band   8 # energy   19.26283700 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 36.660  0.004  0.008  0.074  0.019  0.002  0.000  0.024  0.009 36.801
+ 
+band   9 # energy   19.35580821 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  7.336  0.036  0.046  0.391  0.098  0.006  0.000  0.119  0.069  8.100
+ 
+
+ k-point   25 :   -0.25000000 0.41666667 0.25000000     weight = 0.05555556
+
+band   1 # energy    2.91876406 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.025  0.100  0.000  0.007  0.000  0.022  0.387  0.000  0.322  0.865
+ 
+band   2 # energy    3.88874293 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.018  0.013  0.154  0.004  0.015  0.732  0.016  0.007  0.001  0.959
+ 
+band   3 # energy    5.11874189 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.028  0.000  0.006  0.275  0.578  0.027  0.017  0.009  0.000  0.940
+ 
+band   4 # energy    8.11092793 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.123  0.015  0.007  0.025  0.009  0.004  0.305  0.007  0.397  0.891
+ 
+band   5 # energy   11.65569950 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.018  0.000  0.017  0.009  0.055  0.023  0.000  0.824  0.000  0.946
+ 
+band   6 # energy   14.57941950 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.441  0.003  0.035  0.064  0.103  0.029  0.029  0.089  0.120  0.913
+ 
+band   7 # energy   15.31130628 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.021  0.024  0.181  0.326  0.209  0.076  0.067  0.002  0.000  0.906
+ 
+band   8 # energy   17.68467582 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.089  0.001  0.382  0.113  0.040  0.092  0.019  0.045  0.116  0.897
+ 
+band   9 # energy   19.27894286 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 44.020  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 44.022
+ 
+
+ k-point   26 :   -0.41666667-0.41666667 0.25000000     weight = 0.02777778
+
+band   1 # energy    2.46469419 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.095  0.005  0.009  0.005  0.228  0.002  0.562  0.002  0.000  0.908
+ 
+band   2 # energy    3.42439021 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.005  0.092  0.000  0.092  0.583  0.004  0.156  0.004  0.000  0.937
+ 
+band   3 # energy    6.01988296 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.022  0.000  0.400  0.000  0.024  0.235  0.013  0.235  0.000  0.930
+ 
+band   4 # energy    8.88998170 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.033  0.000  0.033  0.000  0.042  0.000  0.042  0.768  0.918
+ 
+band   5 # energy   11.22439666 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.001  0.000  0.001  0.000  0.430  0.000  0.430  0.087  0.949
+ 
+band   6 # energy   13.14841496 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.459  0.093  0.042  0.093  0.118  0.000  0.001  0.000  0.000  0.807
+ 
+band   7 # energy   15.27661858 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.078  0.010  0.315  0.010  0.001  0.266  0.057  0.266  0.000  1.002
+ 
+band   8 # energy   19.23564488 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 33.461  0.025  0.019  0.025  0.005  0.007  0.079  0.007  0.000 33.628
+ 
+band   9 # energy   20.76205455 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.305  0.000  0.306  0.000  0.002  0.000  0.002  0.217  0.831
+ 
+
+ k-point   27 :    0.41666667 0.41666667 0.41666667     weight = 0.00925926
+
+band   1 # energy    1.03341002 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.401  0.009  0.009  0.009  0.177  0.177  0.000  0.177  0.000  0.958
+ 
+band   2 # energy    5.87597281 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.032  0.218  0.218  0.218  0.050  0.050  0.000  0.050  0.000  0.837
+ 
+band   3 # energy    6.04530383 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.021  0.139  0.045  0.242  0.526  0.975
+ 
+band   4 # energy    6.04530383 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.247  0.129  0.526  0.026  0.045  0.975
+ 
+band   5 # energy   11.01518088 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.004  0.001  0.002  0.056  0.160  0.057  0.350  0.326  0.956
+ 
+band   6 # energy   11.01518088 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.004  0.002  0.321  0.218  0.326  0.027  0.057  0.956
+ 
+band   7 # energy   16.08239974 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.310  0.015  0.015  0.015  0.109  0.109  0.000  0.109  0.000  0.682
+ 
+band   8 # energy   18.46202570 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.083  0.036  0.036  0.036  0.044  0.044  0.000  0.044  0.000  0.322
+ 
+band   9 # energy   19.27910168 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 44.002  0.000  0.000  0.000  0.001  0.001  0.000  0.001  0.000 44.004
+ 
+
+ k-point   28 :   -0.41666667 0.41666667 0.41666667     weight = 0.02777778
+
+band   1 # energy    2.04760537 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.291  0.020  0.020  0.028  0.155  0.297  0.001  0.155  0.003  0.967
+ 
+band   2 # energy    4.62442025 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.088  0.088  0.017  0.010  0.045  0.151  0.010  0.454  0.865
+ 
+band   3 # energy    5.80849064 # occ. -0.00001352
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.093  0.093  0.202  0.146  0.230  0.005  0.146  0.016  0.933
+ 
+band   4 # energy    6.74723274 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.009  0.009  0.000  0.148  0.000  0.480  0.148  0.160  0.954
+ 
+band   5 # energy   10.86298729 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.003  0.003  0.000  0.333  0.000  0.208  0.333  0.069  0.948
+ 
+band   6 # energy   12.72738350 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.096  0.049  0.049  0.074  0.014  0.383  0.063  0.014  0.188  0.929
+ 
+band   7 # energy   15.19361623 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.416  0.021  0.021  0.028  0.163  0.036  0.018  0.163  0.054  0.921
+ 
+band   8 # energy   19.27596218 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.957  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.958
+ 
+band   9 # energy   19.85314427 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.006  0.006  0.049  0.031  0.030  0.016  0.031  0.047  0.217
+ 
+# of k-points:   28         # of bands:   9         # of ions:   1
+
+ k-point    1 :    0.08333333 0.08333333 0.08333333     weight = 0.00925926
+
+band   1 # energy   -2.06499958 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.808  0.007  0.007  0.007  0.000  0.000  0.000  0.000  0.000  0.829
+ 
+band   2 # energy    5.98912300 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.003  0.003  0.003  0.325  0.325  0.000  0.325  0.000  0.985
+ 
+band   3 # energy    6.35368076 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.001  0.001  0.000  0.560  0.200  0.003  0.227  0.000  0.992
+ 
+band   4 # energy    6.35368076 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.001  0.000  0.001  0.098  0.458  0.000  0.431  0.003  0.992
+ 
+band   5 # energy    9.06236188 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.002  0.001  0.809  0.001  0.159  0.971
+ 
+band   6 # energy    9.06236188 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.000  0.002  0.159  0.001  0.809  0.971
+ 
+band   7 # energy   18.74862316 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.009  0.009  0.000  0.009  0.000  0.026
+ 
+band   8 # energy   19.30677579 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.816  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.816
+ 
+band   9 # energy   21.76405081 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.063  0.033  0.033  0.033  0.005  0.005  0.000  0.005  0.000  0.178
+ 
+
+ k-point    2 :    0.25000000 0.08333333 0.08333333     weight = 0.02777778
+
+band   1 # energy   -0.76523162 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.720  0.051  0.051  0.005  0.003  0.019  0.000  0.003  0.001  0.854
+ 
+band   2 # energy    5.13815582 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.007  0.007  0.044  0.434  0.036  0.000  0.434  0.000  0.963
+ 
+band   3 # energy    6.60699299 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.015  0.015  0.001  0.020  0.702  0.049  0.020  0.148  0.969
+ 
+band   4 # energy    6.85653861 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.444  0.000  0.067  0.444  0.022  0.977
+ 
+band   5 # energy    8.30332555 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.002  0.002  0.000  0.044  0.000  0.637  0.044  0.212  0.940
+ 
+band   6 # energy    9.54334001 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.004  0.005  0.005  0.000  0.004  0.183  0.187  0.004  0.562  0.954
+ 
+band   7 # energy   19.29981360 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 41.905  0.001  0.001  0.000  0.000  0.001  0.000  0.000  0.001 41.910
+ 
+band   8 # energy   19.55702847 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  1.971  0.026  0.026  0.012  0.000  0.028  0.006  0.000  0.019  2.090
+ 
+band   9 # energy   21.29294164 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.040  0.010  0.010  0.003  0.074  0.030  0.001  0.074  0.003  0.245
+ 
+
+ k-point    3 :    0.41666667 0.08333333 0.08333333     weight = 0.02777778
+
+band   1 # energy    1.08708047 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.467  0.046  0.046  0.002  0.111  0.143  0.001  0.111  0.002  0.930
+ 
+band   2 # energy    5.19758950 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.034  0.127  0.127  0.153  0.173  0.045  0.012  0.173  0.035  0.878
+ 
+band   3 # energy    6.00358868 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.004  0.001  0.001  0.012  0.090  0.295  0.118  0.090  0.353  0.962
+ 
+band   4 # energy    6.42292412 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.195  0.000  0.432  0.195  0.144  0.968
+ 
+band   5 # energy    9.84785563 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.006  0.006  0.000  0.282  0.000  0.268  0.282  0.089  0.934
+ 
+band   6 # energy   11.31754399 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.011  0.021  0.021  0.001  0.031  0.415  0.106  0.031  0.319  0.956
+ 
+band   7 # energy   16.97887795 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.191  0.035  0.035  0.029  0.052  0.109  0.005  0.052  0.014  0.521
+ 
+band   8 # energy   19.30839000 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.245  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.246
+ 
+band   9 # energy   19.90411283 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.854  0.068  0.068  0.035  0.075  0.031  0.001  0.075  0.004  1.211
+ 
+
+ k-point    4 :   -0.41666667 0.08333333 0.08333333     weight = 0.02777778
+
+band   1 # energy    1.41569697 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.341  0.001  0.001  0.020  0.191  0.222  0.000  0.191  0.001  0.968
+ 
+band   2 # energy    5.46492809 # occ.  1.00000319
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.077  0.077  0.041  0.043  0.063  0.138  0.043  0.413  0.897
+ 
+band   3 # energy    6.23899292 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.003  0.003  0.000  0.187  0.000  0.438  0.187  0.146  0.964
+ 
+band   4 # energy    6.28706905 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.005  0.157  0.157  0.191  0.032  0.268  0.015  0.032  0.045  0.901
+ 
+band   5 # energy   11.52408842 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.301  0.000  0.273  0.301  0.091  0.965
+ 
+band   6 # energy   11.69333880 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.022  0.022  0.051  0.097  0.313  0.085  0.097  0.254  0.942
+ 
+band   7 # energy   15.51007176 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.469  0.003  0.003  0.004  0.166  0.124  0.000  0.166  0.000  0.935
+ 
+band   8 # energy   18.39957340 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.004  0.013  0.013  0.024  0.000  0.026  0.004  0.000  0.011  0.096
+ 
+band   9 # energy   19.31374762 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 44.002  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 44.003
+ 
+
+ k-point    5 :   -0.25000000 0.08333333 0.08333333     weight = 0.02777778
+
+band   1 # energy    0.59758815 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.567  0.020  0.020  0.092  0.065  0.060  0.002  0.065  0.007  0.899
+ 
+band   2 # energy    4.84899117 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.020  0.085  0.085  0.056  0.100  0.458  0.004  0.100  0.013  0.921
+ 
+band   3 # energy    6.19586587 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.003  0.001  0.001  0.000  0.100  0.229  0.130  0.100  0.390  0.955
+ 
+band   4 # energy    6.69459948 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.009  0.009  0.000  0.275  0.000  0.302  0.275  0.101  0.970
+ 
+band   5 # energy    9.41948535 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.008  0.005  0.005  0.040  0.161  0.175  0.095  0.161  0.284  0.934
+ 
+band   6 # energy   10.41908082 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.005  0.005  0.000  0.194  0.000  0.411  0.194  0.137  0.948
+ 
+band   7 # energy   17.79657031 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.096  0.033  0.033  0.027  0.052  0.012  0.004  0.052  0.012  0.321
+ 
+band   8 # energy   19.31168259 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.769  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.769
+ 
+band   9 # energy   21.29133861 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.291  0.068  0.068  0.083  0.089  0.128  0.002  0.089  0.006  0.825
+ 
+
+ k-point    6 :   -0.08333333 0.08333333 0.08333333     weight = 0.02777778
+
+band   1 # energy   -1.38080754 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.764  0.006  0.006  0.057  0.002  0.000  0.001  0.002  0.002  0.841
+ 
+band   2 # energy    5.38777101 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.008  0.008  0.001  0.061  0.833  0.000  0.061  0.000  0.971
+ 
+band   3 # energy    6.68963140 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.006  0.006  0.003  0.394  0.130  0.011  0.394  0.032  0.977
+ 
+band   4 # energy    6.71293120 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.010  0.010  0.000  0.467  0.000  0.022  0.467  0.007  0.983
+ 
+band   5 # energy    8.29570865 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.003  0.000  0.000  0.003  0.018  0.005  0.223  0.018  0.670  0.941
+ 
+band   6 # energy    9.38766533 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.014  0.000  0.704  0.014  0.235  0.968
+ 
+band   7 # energy   19.30670552 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.732  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.732
+ 
+band   8 # energy   20.02806053 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.024  0.002  0.002  0.002  0.002  0.056  0.001  0.002  0.002  0.094
+ 
+band   9 # energy   20.95008845 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.139  0.021  0.021  0.032  0.019  0.017  0.008  0.019  0.025  0.302
+ 
+
+ k-point    7 :    0.25000000 0.25000000 0.08333333     weight = 0.02777778
+
+band   1 # energy   -0.16399559 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.664  0.005  0.140  0.005  0.001  0.005  0.036  0.005  0.000  0.860
+ 
+band   2 # energy    4.47838618 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.008  0.001  0.008  0.920  0.017  0.000  0.017  0.000  0.971
+ 
+band   3 # energy    6.63650836 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.014  0.007  0.007  0.007  0.017  0.126  0.630  0.126  0.000  0.934
+ 
+band   4 # energy    7.44081908 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.023  0.000  0.023  0.000  0.418  0.000  0.418  0.082  0.964
+ 
+band   5 # energy    7.98257657 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.010  0.017  0.022  0.017  0.029  0.304  0.244  0.304  0.000  0.947
+ 
+band   6 # energy    9.97806800 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.001  0.000  0.001  0.000  0.039  0.000  0.039  0.884  0.966
+ 
+band   7 # energy   19.30704531 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.648  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.648
+ 
+band   8 # energy   20.76490533 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.212  0.036  0.021  0.036  0.000  0.027  0.093  0.027  0.000  0.452
+ 
+band   9 # energy   22.43667525 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.010  0.007  0.003  0.007  0.180  0.018  0.001  0.018  0.000  0.245
+ 
+
+ k-point    8 :    0.41666667 0.25000000 0.08333333     weight = 0.05555556
+
+band   1 # energy    1.60035746 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.447  0.032  0.175  0.001  0.025  0.052  0.144  0.010  0.000  0.886
+ 
+band   2 # energy    3.93441481 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.003  0.016  0.006  0.064  0.795  0.006  0.024  0.052  0.000  0.965
+ 
+band   3 # energy    5.42280902 # occ.  1.00000001
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.047  0.015  0.040  0.000  0.037  0.236  0.504  0.008  0.034  0.922
+ 
+band   4 # energy    8.02915516 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.004  0.022  0.028  0.017  0.016  0.137  0.076  0.260  0.379  0.940
+ 
+band   5 # energy    9.39286834 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.007  0.012  0.048  0.040  0.066  0.040  0.098  0.512  0.105  0.928
+ 
+band   6 # energy   11.60135239 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.022  0.023  0.029  0.000  0.001  0.420  0.040  0.009  0.423  0.968
+ 
+band   7 # energy   18.62798084 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.387  0.166  0.085  0.042  0.012  0.127  0.012  0.043  0.027  0.901
+ 
+band   8 # energy   19.32175822 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.698  0.003  0.001  0.001  0.000  0.003  0.000  0.001  0.000 43.707
+ 
+band   9 # energy   21.92689464 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.050  0.000  0.474  0.072  0.016  0.010  0.217  0.016  0.856
+ 
+
+ k-point    9 :   -0.41666667 0.25000000 0.08333333     weight = 0.05555556
+
+band   1 # energy    2.61132387 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.231  0.000  0.068  0.024  0.338  0.157  0.052  0.087  0.000  0.958
+ 
+band   2 # energy    4.09276729 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.117  0.007  0.064  0.006  0.047  0.547  0.013  0.060  0.863
+ 
+band   3 # energy    5.48655110 # occ.  1.00004877
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.014  0.038  0.166  0.090  0.339  0.260  0.018  0.011  0.010  0.945
+ 
+band   4 # energy    7.43449224 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.008  0.024  0.019  0.006  0.030  0.068  0.205  0.573  0.935
+ 
+band   5 # energy   11.08934079 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.034  0.003  0.006  0.002  0.073  0.173  0.028  0.437  0.180  0.936
+ 
+band   6 # energy   13.46171183 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.002  0.058  0.182  0.120  0.135  0.189  0.166  0.001  0.061  0.915
+ 
+band   7 # energy   14.68291671 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.495  0.003  0.001  0.004  0.054  0.115  0.021  0.202  0.024  0.919
+ 
+band   8 # energy   19.31206079 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.910  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.911
+ 
+band   9 # energy   20.73113734 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.029  0.012  0.117  0.000  0.012  0.063  0.195  0.012  0.006  0.447
+ 
+
+ k-point   10 :   -0.25000000 0.25000000 0.08333333     weight = 0.05555556
+
+band   1 # energy    2.31321988 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.384  0.067  0.002  0.149  0.190  0.055  0.016  0.027  0.026  0.915
+ 
+band   2 # energy    4.44419541 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.004  0.056  0.125  0.028  0.021  0.403  0.127  0.117  0.039  0.919
+ 
+band   3 # energy    4.86693594 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.017  0.015  0.028  0.001  0.239  0.178  0.357  0.026  0.068  0.931
+ 
+band   4 # energy    7.56782418 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.002  0.002  0.049  0.012  0.032  0.079  0.109  0.645  0.931
+ 
+band   5 # energy    9.40377928 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.017  0.016  0.000  0.211  0.006  0.559  0.121  0.929
+ 
+band   6 # energy   12.70599414 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.107  0.021  0.003  0.043  0.509  0.002  0.295  0.001  0.000  0.981
+ 
+band   7 # energy   17.28634409 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.224  0.136  0.029  0.117  0.044  0.024  0.122  0.038  0.002  0.737
+ 
+band   8 # energy   19.31515459 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.995  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.996
+ 
+band   9 # energy   21.18631981 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.004  0.014  0.463  0.001  0.004  0.175  0.042  0.216  0.001  0.920
+ 
+
+ k-point   11 :   -0.08333333 0.25000000 0.08333333     weight = 0.05555556
+
+band   1 # energy    0.34373503 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.624  0.040  0.003  0.126  0.045  0.008  0.008  0.008  0.012  0.874
+ 
+band   2 # energy    4.57837328 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.003  0.012  0.061  0.007  0.013  0.706  0.002  0.156  0.002  0.961
+ 
+band   3 # energy    6.17674550 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.004  0.024  0.000  0.001  0.368  0.038  0.317  0.004  0.184  0.939
+ 
+band   4 # energy    7.29901890 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.006  0.011  0.006  0.101  0.084  0.046  0.430  0.271  0.956
+ 
+band   5 # energy    8.32189215 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.006  0.004  0.009  0.025  0.073  0.102  0.001  0.293  0.427  0.939
+ 
+band   6 # energy   10.49051102 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.009  0.016  0.000  0.012  0.311  0.001  0.564  0.010  0.032  0.956
+ 
+band   7 # energy   19.25414836 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 22.686  0.028  0.008  0.017  0.037  0.001  0.023  0.006  0.005 22.811
+ 
+band   8 # energy   19.37871511 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 21.230  0.031  0.010  0.017  0.046  0.001  0.029  0.007  0.006 21.377
+ 
+band   9 # energy   22.51262518 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.081  0.050  0.039  0.040  0.044  0.161  0.001  0.089  0.004  0.510
+ 
+
+ k-point   12 :    0.41666667 0.41666667 0.08333333     weight = 0.02777778
+
+band   1 # energy    1.66723557 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.224  0.004  0.079  0.004  0.005  0.001  0.566  0.001  0.000  0.885
+ 
+band   2 # energy    2.96492299 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.007  0.000  0.007  0.975  0.002  0.004  0.002  0.000  0.997
+ 
+band   3 # energy    6.57304474 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.149  0.002  0.409  0.002  0.002  0.058  0.240  0.058  0.000  0.920
+ 
+band   4 # energy    9.77636262 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.036  0.000  0.036  0.000  0.253  0.000  0.253  0.354  0.933
+ 
+band   5 # energy   10.83657219 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.011  0.046  0.076  0.046  0.007  0.354  0.032  0.354  0.000  0.927
+ 
+band   6 # energy   11.46962327 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.006  0.000  0.006  0.000  0.177  0.000  0.177  0.600  0.966
+ 
+band   7 # energy   18.08536675 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.150  0.188  0.060  0.188  0.008  0.080  0.008  0.080  0.000  0.762
+ 
+band   8 # energy   19.31112038 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.531  0.002  0.000  0.002  0.000  0.001  0.000  0.001  0.000 43.537
+ 
+band   9 # energy   19.46837405 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.293  0.000  0.293  0.000  0.086  0.000  0.086  0.022  0.780
+ 
+
+ k-point   13 :   -0.41666667 0.41666667 0.08333333     weight = 0.05555556
+
+band   1 # energy    2.14792156 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.093  0.035  0.008  0.001  0.034  0.001  0.708  0.000  0.004  0.883
+ 
+band   2 # energy    3.10415726 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.013  0.000  0.062  0.890  0.001  0.021  0.002  0.000  0.989
+ 
+band   3 # energy    6.59421239 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.034  0.001  0.461  0.000  0.003  0.371  0.017  0.029  0.008  0.924
+ 
+band   4 # energy    9.57891580 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.031  0.056  0.026  0.007  0.000  0.001  0.007  0.021  0.761  0.911
+ 
+band   5 # energy   11.77658119 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.010  0.002  0.001  0.017  0.006  0.123  0.000  0.773  0.021  0.952
+ 
+band   6 # energy   13.92447397 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.023  0.007  0.312  0.015  0.003  0.488  0.023  0.093  0.008  0.972
+ 
+band   7 # energy   14.98342052 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.407  0.090  0.015  0.138  0.033  0.003  0.016  0.030  0.088  0.820
+ 
+band   8 # energy   17.95548600 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.071  0.029  0.022  0.496  0.037  0.002  0.046  0.033  0.075  0.810
+ 
+band   9 # energy   19.31022823 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.440  0.004  0.000  0.001  0.000  0.000  0.001  0.000  0.001 43.447
+ 
+
+ k-point   14 :   -0.25000000 0.41666667 0.08333333     weight = 0.05555556
+
+band   1 # energy    3.21012799 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.108  0.007  0.016  0.016  0.416  0.020  0.336  0.011  0.006  0.935
+ 
+band   2 # energy    3.71434101 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.038  0.131  0.002  0.128  0.182  0.029  0.321  0.011  0.043  0.885
+ 
+band   3 # energy    5.23861472 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.009  0.267  0.020  0.079  0.468  0.002  0.094  0.001  0.941
+ 
+band   4 # energy    8.09236438 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.024  0.008  0.007  0.041  0.006  0.005  0.044  0.049  0.731  0.916
+ 
+band   5 # energy   10.73300727 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.022  0.001  0.009  0.000  0.018  0.242  0.002  0.606  0.035  0.936
+ 
+band   6 # energy   13.09019960 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.424  0.018  0.017  0.084  0.238  0.002  0.014  0.023  0.050  0.870
+ 
+band   7 # energy   16.32574679 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.104  0.037  0.255  0.075  0.013  0.179  0.154  0.146  0.002  0.964
+ 
+band   8 # energy   19.11320916 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  2.416  0.049  0.233  0.129  0.024  0.091  0.217  0.079  0.008  3.244
+ 
+band   9 # energy   19.32781736 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 41.634  0.004  0.015  0.009  0.001  0.005  0.019  0.005  0.001 41.694
+ 
+
+ k-point   15 :   -0.08333333 0.41666667 0.08333333     weight = 0.05555556
+
+band   1 # energy    1.78520604 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.349  0.012  0.003  0.068  0.189  0.194  0.003  0.124  0.008  0.951
+ 
+band   2 # energy    4.89516794 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.005  0.129  0.081  0.060  0.071  0.014  0.318  0.027  0.158  0.862
+ 
+band   3 # energy    5.65630498 # occ.  0.27200646
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.026  0.032  0.104  0.078  0.159  0.400  0.112  0.017  0.027  0.954
+ 
+band   4 # energy    6.73870089 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.004  0.004  0.016  0.047  0.049  0.147  0.245  0.442  0.953
+ 
+band   5 # energy   10.64798868 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.002  0.013  0.035  0.005  0.177  0.011  0.410  0.281  0.934
+ 
+band   6 # energy   12.28808037 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.032  0.028  0.021  0.054  0.441  0.033  0.340  0.013  0.002  0.963
+ 
+band   7 # energy   15.99563911 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.366  0.044  0.032  0.041  0.106  0.083  0.026  0.135  0.001  0.834
+ 
+band   8 # energy   19.31254330 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.814  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.814
+ 
+band   9 # energy   19.70877489 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.191  0.013  0.013  0.043  0.007  0.043  0.027  0.009  0.022  0.368
+ 
+
+ k-point   16 :   -0.41666667-0.41666667 0.08333333     weight = 0.02777778
+
+band   1 # energy    1.59455987 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.124  0.004  0.008  0.004  0.005  0.000  0.743  0.000  0.000  0.887
+ 
+band   2 # energy    2.62304208 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.007  0.000  0.007  0.991  0.000  0.003  0.000  0.000  1.008
+ 
+band   3 # energy    7.84719746 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.037  0.000  0.697  0.000  0.000  0.075  0.027  0.075  0.000  0.913
+ 
+band   4 # energy   10.86615815 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.021  0.000  0.021  0.000  0.059  0.000  0.059  0.780  0.941
+ 
+band   5 # energy   11.97672318 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.002  0.000  0.002  0.000  0.409  0.000  0.409  0.144  0.967
+ 
+band   6 # energy   12.49601457 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.002  0.018  0.137  0.018  0.001  0.387  0.006  0.387  0.000  0.956
+ 
+band   7 # energy   15.96798789 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.269  0.198  0.010  0.198  0.010  0.023  0.026  0.023  0.000  0.756
+ 
+band   8 # energy   17.63643258 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.324  0.000  0.324  0.000  0.018  0.000  0.018  0.059  0.743
+ 
+band   9 # energy   18.90050720 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  2.038  0.106  0.043  0.106  0.004  0.008  0.275  0.008  0.000  2.588
+ 
+
+ k-point   17 :   -0.25000000-0.41666667 0.08333333     weight = 0.05555556
+
+band   1 # energy    2.22138487 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.198  0.033  0.086  0.000  0.048  0.014  0.501  0.004  0.002  0.885
+ 
+band   2 # energy    3.39681456 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.016  0.001  0.063  0.834  0.004  0.040  0.016  0.001  0.975
+ 
+band   3 # energy    5.60504163 # occ.  0.97426750
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.120  0.006  0.247  0.000  0.023  0.299  0.191  0.017  0.025  0.929
+ 
+band   4 # energy    9.00812175 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.037  0.056  0.016  0.003  0.057  0.038  0.154  0.560  0.923
+ 
+band   5 # energy   10.83180998 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.011  0.041  0.055  0.031  0.003  0.023  0.638  0.125  0.927
+ 
+band   6 # energy   12.63806295 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.054  0.021  0.107  0.008  0.003  0.547  0.055  0.001  0.177  0.974
+ 
+band   7 # energy   16.61108337 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.284  0.154  0.079  0.070  0.020  0.047  0.002  0.058  0.060  0.774
+ 
+band   8 # energy   19.31120776 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.512  0.000  0.000  0.004  0.000  0.000  0.000  0.002  0.000 43.518
+ 
+band   9 # energy   19.64372258 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.390  0.075  0.016  0.489  0.038  0.003  0.003  0.141  0.044  1.200
+ 
+
+ k-point   18 :   -0.25000000-0.25000000 0.08333333     weight = 0.02777778
+
+band   1 # energy    1.12945879 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.469  0.004  0.179  0.004  0.003  0.005  0.207  0.005  0.000  0.876
+ 
+band   2 # energy    3.61448689 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.008  0.001  0.008  0.950  0.006  0.002  0.006  0.000  0.980
+ 
+band   3 # energy    5.99752599 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.086  0.003  0.115  0.003  0.005  0.050  0.603  0.050  0.000  0.915
+ 
+band   4 # energy    8.50652551 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.035  0.000  0.035  0.000  0.351  0.000  0.351  0.168  0.941
+ 
+band   5 # energy    9.15821362 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.011  0.039  0.038  0.039  0.016  0.365  0.064  0.365  0.000  0.936
+ 
+band   6 # energy   10.72058534 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.004  0.000  0.004  0.000  0.082  0.000  0.082  0.795  0.967
+ 
+band   7 # energy   19.30487373 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.364  0.000  0.001  0.000  0.000  0.000  0.000  0.000  0.000 43.366
+ 
+band   8 # energy   20.47371216 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.492  0.159  0.047  0.159  0.007  0.103  0.023  0.103  0.000  1.093
+ 
+band   9 # energy   21.96809691 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.264  0.000  0.265  0.000  0.124  0.000  0.124  0.010  0.786
+ 
+
+ k-point   19 :    0.25000000 0.25000000 0.25000000     weight = 0.00925926
+
+band   1 # energy   -0.28038674 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.671  0.039  0.039  0.039  0.029  0.029  0.000  0.029  0.000  0.873
+ 
+band   2 # energy    5.07269251 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.010  0.049  0.049  0.049  0.261  0.261  0.000  0.261  0.000  0.940
+ 
+band   3 # energy    6.62643588 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.004  0.002  0.393  0.254  0.262  0.021  0.035  0.971
+ 
+band   4 # energy    6.62643588 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.004  0.000  0.002  0.052  0.191  0.035  0.424  0.262  0.971
+ 
+band   5 # energy    9.22465545 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.004  0.004  0.147  0.142  0.495  0.000  0.154  0.946
+ 
+band   6 # energy    9.22465545 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.005  0.001  0.001  0.046  0.051  0.154  0.193  0.495  0.946
+ 
+band   7 # energy   18.20280502 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.060  0.022  0.022  0.022  0.012  0.012  0.000  0.012  0.000  0.162
+ 
+band   8 # energy   19.31096092 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.816  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.816
+ 
+band   9 # energy   21.82325591 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.117  0.036  0.036  0.036  0.113  0.113  0.000  0.113  0.000  0.564
+ 
+
+ k-point   20 :    0.41666667 0.25000000 0.25000000     weight = 0.02777778
+
+band   1 # energy    1.24198054 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.533  0.098  0.098  0.000  0.019  0.120  0.002  0.019  0.006  0.896
+ 
+band   2 # energy    4.62530765 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.007  0.021  0.021  0.124  0.381  0.005  0.002  0.381  0.007  0.948
+ 
+band   3 # energy    5.66960094 # occ.  0.10503767
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.023  0.023  0.001  0.016  0.353  0.120  0.016  0.361  0.917
+ 
+band   4 # energy    7.17774871 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.004  0.004  0.000  0.129  0.000  0.510  0.129  0.170  0.947
+ 
+band   5 # energy    8.51962966 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.003  0.003  0.000  0.346  0.000  0.179  0.346  0.060  0.936
+ 
+band   6 # energy   11.67672253 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.035  0.029  0.029  0.000  0.003  0.445  0.106  0.003  0.318  0.969
+ 
+band   7 # energy   18.45412066 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.220  0.082  0.082  0.018  0.013  0.121  0.020  0.013  0.061  0.633
+ 
+band   8 # energy   19.31814717 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.833  0.000  0.000  0.000  0.000  0.001  0.000  0.000  0.001 43.836
+ 
+band   9 # energy   21.53747382 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.140  0.090  0.090  0.017  0.044  0.006  0.006  0.044  0.018  0.454
+ 
+
+ k-point   21 :   -0.41666667 0.25000000 0.25000000     weight = 0.02777778
+
+band   1 # energy    2.91061365 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.267  0.071  0.071  0.013  0.047  0.435  0.001  0.047  0.004  0.956
+ 
+band   2 # energy    4.18713029 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.085  0.085  0.003  0.000  0.047  0.158  0.000  0.474  0.855
+ 
+band   3 # energy    5.06038088 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.005  0.020  0.020  0.228  0.299  0.067  0.001  0.299  0.004  0.943
+ 
+band   4 # energy    7.59497218 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.018  0.018  0.000  0.047  0.000  0.600  0.047  0.200  0.930
+ 
+band   5 # energy    9.87834613 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.002  0.002  0.000  0.420  0.000  0.065  0.420  0.022  0.931
+ 
+band   6 # energy   12.85007182 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.314  0.020  0.020  0.008  0.000  0.436  0.031  0.000  0.092  0.919
+ 
+band   7 # energy   16.87423793 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.176  0.114  0.114  0.073  0.067  0.001  0.063  0.067  0.190  0.866
+ 
+band   8 # energy   19.31312846 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.862  0.000  0.000  0.001  0.001  0.000  0.000  0.001  0.000 43.864
+ 
+band   9 # energy   19.99125223 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.139  0.029  0.029  0.443  0.192  0.002  0.020  0.192  0.061  1.107
+ 
+
+ k-point   22 :   -0.25000000 0.25000000 0.25000000     weight = 0.02777778
+
+band   1 # energy    2.38722343 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.208  0.001  0.001  0.080  0.039  0.280  0.070  0.039  0.211  0.928
+ 
+band   2 # energy    3.76696613 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.093  0.093  0.004  0.025  0.370  0.076  0.025  0.228  0.912
+ 
+band   3 # energy    5.50905581 # occ.  1.00054058
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.081  0.004  0.004  0.225  0.147  0.193  0.034  0.147  0.103  0.939
+ 
+band   4 # energy    8.01603689 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.025  0.025  0.000  0.156  0.000  0.429  0.156  0.143  0.935
+ 
+band   5 # energy   11.69865471 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.315  0.000  0.253  0.315  0.084  0.968
+ 
+band   6 # energy   12.64866226 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.001  0.077  0.077  0.233  0.152  0.073  0.035  0.152  0.105  0.904
+ 
+band   7 # energy   15.16686387 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.438  0.046  0.046  0.014  0.132  0.047  0.002  0.132  0.005  0.863
+ 
+band   8 # energy   19.31190229 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.866  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.867
+ 
+band   9 # energy   21.29714990 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.003  0.306  0.284  0.003  0.024  0.000  0.097  0.018  0.025  0.761
+ 
+
+ k-point   23 :    0.41666667 0.41666667 0.25000000     weight = 0.02777778
+
+band   1 # energy    1.64229487 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.406  0.005  0.127  0.005  0.147  0.082  0.068  0.082  0.000  0.922
+ 
+band   2 # energy    4.38505080 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.013  0.098  0.041  0.098  0.392  0.040  0.185  0.040  0.000  0.906
+ 
+band   3 # energy    5.51425028 # occ.  1.00088315
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.040  0.001  0.050  0.001  0.271  0.079  0.423  0.079  0.000  0.943
+ 
+band   4 # energy    7.18799818 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.017  0.000  0.017  0.000  0.220  0.000  0.220  0.476  0.950
+ 
+band   5 # energy   10.68786498 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.017  0.035  0.112  0.035  0.102  0.198  0.221  0.198  0.000  0.918
+ 
+band   6 # energy   11.41085387 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.003  0.000  0.003  0.000  0.243  0.000  0.243  0.470  0.963
+ 
+band   7 # energy   17.11320255 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.240  0.070  0.057  0.070  0.040  0.121  0.006  0.121  0.000  0.725
+ 
+band   8 # energy   19.31442902 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.914  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.915
+ 
+band   9 # energy   20.59566007 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.125  0.014  0.068  0.014  0.050  0.002  0.109  0.002  0.000  0.385
+ 
+
+ k-point   24 :   -0.41666667 0.41666667 0.25000000     weight = 0.05555556
+
+band   1 # energy    3.10537417 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.151  0.076  0.109  0.006  0.103  0.075  0.340  0.013  0.020  0.893
+ 
+band   2 # energy    3.93614425 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.025  0.044  0.005  0.090  0.324  0.123  0.206  0.036  0.069  0.922
+ 
+band   3 # energy    4.67827291 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.062  0.001  0.103  0.066  0.319  0.305  0.046  0.005  0.045  0.951
+ 
+band   4 # energy    8.20616978 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.009  0.012  0.086  0.006  0.003  0.001  0.157  0.064  0.576  0.914
+ 
+band   5 # energy   10.62634761 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.013  0.002  0.006  0.038  0.105  0.030  0.012  0.684  0.037  0.926
+ 
+band   6 # energy   13.38213990 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.251  0.007  0.104  0.012  0.003  0.437  0.095  0.016  0.022  0.946
+ 
+band   7 # energy   16.21328497 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.225  0.090  0.127  0.096  0.054  0.003  0.007  0.070  0.185  0.858
+ 
+band   8 # energy   19.30088356 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 37.921  0.003  0.007  0.061  0.016  0.001  0.000  0.020  0.007 38.037
+ 
+band   9 # energy   19.40280367 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  6.076  0.037  0.048  0.404  0.102  0.006  0.000  0.123  0.071  6.865
+ 
+
+ k-point   25 :   -0.25000000 0.41666667 0.25000000     weight = 0.05555556
+
+band   1 # energy    2.97125180 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.025  0.100  0.000  0.007  0.000  0.022  0.387  0.000  0.322  0.865
+ 
+band   2 # energy    3.93287639 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.018  0.013  0.153  0.004  0.014  0.732  0.016  0.007  0.001  0.959
+ 
+band   3 # energy    5.16317239 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.028  0.000  0.006  0.275  0.579  0.027  0.017  0.009  0.000  0.940
+ 
+band   4 # energy    8.15997499 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.122  0.015  0.007  0.025  0.009  0.004  0.305  0.007  0.397  0.891
+ 
+band   5 # energy   11.69210761 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.017  0.000  0.016  0.009  0.055  0.023  0.000  0.825  0.000  0.946
+ 
+band   6 # energy   14.62743643 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.440  0.003  0.034  0.065  0.104  0.029  0.029  0.088  0.120  0.912
+ 
+band   7 # energy   15.35929391 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.022  0.024  0.181  0.325  0.208  0.076  0.067  0.002  0.000  0.906
+ 
+band   8 # energy   17.73375783 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.089  0.001  0.383  0.112  0.040  0.093  0.019  0.044  0.116  0.897
+ 
+band   9 # energy   19.31557236 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 44.021  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 44.022
+ 
+
+ k-point   26 :   -0.41666667-0.41666667 0.25000000     weight = 0.02777778
+
+band   1 # energy    2.51590717 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.095  0.005  0.009  0.005  0.230  0.002  0.560  0.002  0.000  0.908
+ 
+band   2 # energy    3.47047959 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.005  0.092  0.000  0.092  0.581  0.004  0.158  0.004  0.000  0.936
+ 
+band   3 # energy    6.06471211 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.022  0.000  0.399  0.000  0.024  0.236  0.013  0.236  0.000  0.930
+ 
+band   4 # energy    8.93611269 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.032  0.000  0.032  0.000  0.043  0.000  0.043  0.768  0.918
+ 
+band   5 # energy   11.26104356 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.001  0.000  0.001  0.000  0.430  0.000  0.430  0.088  0.949
+ 
+band   6 # energy   13.20377301 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.458  0.093  0.042  0.093  0.118  0.000  0.001  0.000  0.000  0.806
+ 
+band   7 # energy   15.31661874 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.078  0.010  0.315  0.010  0.001  0.265  0.057  0.265  0.000  1.002
+ 
+band   8 # energy   19.27302854 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 32.008  0.029  0.022  0.029  0.006  0.008  0.092  0.008  0.000 32.201
+ 
+band   9 # energy   19.44440086 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 12.116  0.088  0.068  0.088  0.017  0.022  0.321  0.022  0.000 12.741
+ 
+
+ k-point   27 :    0.41666667 0.41666667 0.41666667     weight = 0.00925926
+
+band   1 # energy    1.08276582 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.400  0.009  0.009  0.009  0.177  0.177  0.000  0.177  0.000  0.957
+ 
+band   2 # energy    5.92695999 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.032  0.218  0.218  0.218  0.050  0.050  0.000  0.050  0.000  0.837
+ 
+band   3 # energy    6.09299508 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.157  0.228  0.332  0.019  0.238  0.975
+ 
+band   4 # energy    6.09299508 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.000  0.000  0.112  0.041  0.238  0.250  0.332  0.975
+ 
+band   5 # energy   11.05383434 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.000  0.002  0.004  0.198  0.332  0.202  0.036  0.183  0.956
+ 
+band   6 # energy   11.05383434 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.004  0.002  0.000  0.179  0.045  0.183  0.342  0.202  0.956
+ 
+band   7 # energy   16.12804063 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.309  0.015  0.015  0.015  0.109  0.109  0.000  0.109  0.000  0.682
+ 
+band   8 # energy   18.50456184 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.084  0.036  0.036  0.036  0.044  0.044  0.000  0.044  0.000  0.322
+ 
+band   9 # energy   19.31571759 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 44.000  0.000  0.000  0.000  0.001  0.001  0.000  0.001  0.000 44.003
+ 
+
+ k-point   28 :   -0.41666667 0.41666667 0.41666667     weight = 0.02777778
+
+band   1 # energy    2.09545379 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.290  0.020  0.020  0.028  0.155  0.297  0.001  0.155  0.003  0.967
+ 
+band   2 # energy    4.67613814 # occ.  1.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.088  0.088  0.017  0.010  0.045  0.152  0.010  0.455  0.865
+ 
+band   3 # energy    5.85438906 # occ. -0.00000002
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.002  0.093  0.093  0.202  0.146  0.230  0.005  0.146  0.016  0.933
+ 
+band   4 # energy    6.79470292 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.009  0.009  0.000  0.148  0.000  0.480  0.148  0.160  0.954
+ 
+band   5 # energy   10.90151678 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.003  0.003  0.000  0.332  0.000  0.208  0.332  0.069  0.948
+ 
+band   6 # energy   12.76952020 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.095  0.049  0.049  0.074  0.014  0.382  0.063  0.014  0.188  0.929
+ 
+band   7 # energy   15.23866106 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.416  0.021  0.021  0.028  0.163  0.037  0.018  0.163  0.054  0.920
+ 
+band   8 # energy   19.31253687 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1 43.958  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000 43.958
+ 
+band   9 # energy   19.89621166 # occ.  0.00000000
+ 
+ion      s     py     pz     px    dxy    dyz    dz2    dxz    dx2    tot
+  1  0.000  0.006  0.006  0.049  0.031  0.030  0.016  0.031  0.047  0.217
+ 

@@ -1,0 +1,12 @@
+INCAR created by Atomic Simulation Environment
+ ENCUT = 450.000000
+ SIGMA = 0.050000
+ PREC = Accurate
+ ISPIN = 2
+ NBANDS = 12
+ ISMEAR = 1
+ ISTART = 0
+ LORBIT = 11
+ MAGMOM = 1*2.0000 1*6.0000 
+ LREAL = .FALSE.
+ MAGMOM = 1*2.0000 1*6.0000 
